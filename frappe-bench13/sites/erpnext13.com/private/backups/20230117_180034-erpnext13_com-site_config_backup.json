@@ -1,0 +1,9 @@
+{
+ "db_name": "_8dd4e147dab549c8",
+ "db_password": "guIFc7o6K5dui0c8",
+ "db_type": "mariadb",
+ "host_name":"erpnext13",
+ "user_type_doctype_limit": {
+  "employee_self_service": 10
+ }
+}

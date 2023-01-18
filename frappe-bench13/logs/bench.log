@@ -1,0 +1,403 @@
+2022-12-07 15:58:39,261 DEBUG cd /home/eorchids/frappe-bench13 && /usr/bin/virtualenv --quiet env -p python3
+2022-12-07 15:58:43,639 DEBUG cd /home/eorchids/frappe-bench13 && /home/eorchids/frappe-bench13/env/bin/python -m pip install --quiet --upgrade pip
+2022-12-07 15:58:49,405 LOG Getting frappe
+2022-12-07 15:58:49,405 DEBUG cd frappe-bench13/apps && git clone https://github.com/frappe/frappe.git --branch version-13 --depth 1 --origin upstream
+2022-12-07 15:59:00,847 LOG Installing frappe
+2022-12-07 15:59:00,848 DEBUG cd /home/eorchids/frappe-bench13 && /home/eorchids/frappe-bench13/env/bin/python -m pip install --quiet --upgrade -e /home/eorchids/frappe-bench13/apps/frappe 
+2022-12-07 16:00:21,561 DEBUG cd /home/eorchids/frappe-bench13/apps/frappe && yarn install
+2022-12-07 16:02:42,314 DEBUG cd frappe-bench13 && bench build
+2022-12-07 16:02:42,724 INFO /usr/local/bin/bench build
+2022-12-07 16:04:04,285 LOG setting up backups
+2022-12-07 16:04:08,212 LOG backups were set up
+2022-12-07 16:04:08,314 INFO Bench frappe-bench13 initialized
+2022-12-07 16:05:59,461 INFO /usr/local/bin/bench start
+2022-12-07 16:06:07,299 INFO /usr/local/bin/bench watch
+2022-12-07 16:06:07,383 INFO /usr/local/bin/bench worker --queue default
+2022-12-07 16:06:07,565 INFO /usr/local/bin/bench worker --queue short
+2022-12-07 16:06:07,568 INFO /usr/local/bin/bench serve --port 8005
+2022-12-07 16:06:07,592 INFO /usr/local/bin/bench schedule
+2022-12-07 16:06:07,603 INFO /usr/local/bin/bench worker --queue long
+2022-12-07 16:07:56,843 INFO /usr/local/bin/bench new-site erpnext13.com
+2022-12-07 16:11:35,898 INFO /usr/local/bin/bench use erpnext13.com
+2022-12-07 16:11:47,018 INFO /usr/local/bin/bench get-app payments
+2022-12-07 16:11:49,355 LOG Getting payments
+2022-12-07 16:11:49,356 DEBUG cd ./apps && git clone https://github.com/frappe/payments.git  --depth 1 --origin upstream
+2022-12-07 16:11:51,563 LOG Installing payments
+2022-12-07 16:11:51,564 DEBUG cd /home/eorchids/frappe-bench13 && /home/eorchids/frappe-bench13/env/bin/python -m pip install --quiet --upgrade -e /home/eorchids/frappe-bench13/apps/payments 
+2022-12-07 16:11:55,669 DEBUG bench build --app payments
+2022-12-07 16:11:56,033 INFO /usr/local/bin/bench build --app payments
+2022-12-07 16:12:06,595 INFO /usr/local/bin/bench get-app erpnext --branch version-13
+2022-12-07 16:12:08,028 LOG Getting erpnext
+2022-12-07 16:12:08,028 DEBUG cd ./apps && git clone https://github.com/frappe/erpnext.git --branch version-13 --depth 1 --origin upstream
+2022-12-07 16:12:14,994 LOG Installing erpnext
+2022-12-07 16:12:14,994 DEBUG cd /home/eorchids/frappe-bench13 && /home/eorchids/frappe-bench13/env/bin/python -m pip install --quiet --upgrade -e /home/eorchids/frappe-bench13/apps/erpnext 
+2022-12-07 16:12:45,578 DEBUG cd /home/eorchids/frappe-bench13/apps/erpnext && yarn install
+2022-12-07 16:12:47,904 DEBUG bench build --app erpnext
+2022-12-07 16:12:48,254 INFO /usr/local/bin/bench build --app erpnext
+2022-12-07 16:13:36,359 INFO /usr/local/bin/bench get-app hrms
+2022-12-07 16:13:38,015 LOG Getting hrms
+2022-12-07 16:13:38,015 DEBUG cd ./apps && git clone https://github.com/frappe/hrms.git  --depth 1 --origin upstream
+2022-12-07 16:13:41,139 LOG Installing hrms
+2022-12-07 16:13:41,140 DEBUG cd /home/eorchids/frappe-bench13 && /home/eorchids/frappe-bench13/env/bin/python -m pip install --quiet --upgrade -e /home/eorchids/frappe-bench13/apps/hrms 
+2022-12-07 16:13:45,570 DEBUG bench build --app hrms
+2022-12-07 16:13:45,981 INFO /usr/local/bin/bench build --app hrms
+2022-12-07 16:14:07,669 INFO /usr/local/bin/bench --site erpnext13.com install-app erpnext
+2022-12-07 16:20:32,421 INFO /usr/local/bin/bench start
+2022-12-07 16:20:35,566 INFO /usr/local/bin/bench schedule
+2022-12-07 16:20:35,756 INFO /usr/local/bin/bench worker --queue long
+2022-12-07 16:20:35,757 INFO /usr/local/bin/bench watch
+2022-12-07 16:20:35,819 INFO /usr/local/bin/bench serve --port 8005
+2022-12-07 16:20:35,864 INFO /usr/local/bin/bench worker --queue default
+2022-12-07 16:20:35,866 INFO /usr/local/bin/bench worker --queue short
+2022-12-07 16:25:26,700 INFO /usr/local/bin/bench --site erpnext13.com install-app payments
+2022-12-07 16:26:02,807 INFO /usr/local/bin/bench --site erpnext13.com install-app hrms
+2022-12-07 16:26:24,787 INFO /usr/local/bin/bench migrate
+2022-12-07 16:28:00,307 INFO /usr/local/bin/bench get-app hrms
+2022-12-07 16:28:05,690 LOG Getting hrms
+2022-12-07 16:28:05,690 DEBUG cd ./apps && git clone hrms --branch develop --depth 1 --origin upstream
+2022-12-07 16:28:05,712 WARNING cd ./apps && git clone hrms --branch develop --depth 1 --origin upstream executed with exit code 128
+2022-12-07 16:28:05,712 WARNING /usr/local/bin/bench get-app hrms executed with exit code 1
+2022-12-07 16:28:15,526 INFO /usr/local/bin/bench get-app hrms
+2022-12-07 16:28:17,352 LOG Getting hrms
+2022-12-07 16:28:17,352 DEBUG cd ./apps && git clone https://github.com/frappe/hrms.git  --depth 1 --origin upstream
+2022-12-07 16:28:20,117 LOG Installing hrms
+2022-12-07 16:28:20,117 DEBUG cd /home/eorchids/frappe-bench13 && /home/eorchids/frappe-bench13/env/bin/python -m pip install --quiet --upgrade -e /home/eorchids/frappe-bench13/apps/hrms 
+2022-12-07 16:28:25,678 DEBUG bench build --app hrms
+2022-12-07 16:28:26,094 INFO /usr/local/bin/bench build --app hrms
+2022-12-07 16:28:59,017 INFO /usr/local/bin/bench --site erpnext13.com install-app hrms
+2022-12-07 17:02:02,362 INFO /usr/local/bin/bench --site erpnext13.com install-app hrms
+2022-12-07 17:02:21,496 INFO /usr/local/bin/bench get-app hrms
+2022-12-07 17:02:24,672 LOG Getting hrms
+2022-12-07 17:02:24,672 DEBUG cd ./apps && git clone hrms --branch develop --depth 1 --origin upstream
+2022-12-07 17:02:24,674 WARNING cd ./apps && git clone hrms --branch develop --depth 1 --origin upstream executed with exit code 128
+2022-12-07 17:02:24,674 WARNING /usr/local/bin/bench get-app hrms executed with exit code 1
+2022-12-07 17:02:26,845 INFO /usr/local/bin/bench get-app hrms
+2022-12-07 17:02:28,555 LOG Getting hrms
+2022-12-07 17:02:28,555 DEBUG cd ./apps && git clone https://github.com/frappe/hrms.git  --depth 1 --origin upstream
+2022-12-07 17:02:31,292 LOG Installing hrms
+2022-12-07 17:02:31,292 DEBUG cd /home/eorchids/frappe-bench13 && /home/eorchids/frappe-bench13/env/bin/python -m pip install --quiet --upgrade -e /home/eorchids/frappe-bench13/apps/hrms 
+2022-12-07 17:02:35,518 DEBUG bench build --app hrms
+2022-12-07 17:02:35,879 INFO /usr/local/bin/bench build --app hrms
+2022-12-07 17:02:48,177 INFO /usr/local/bin/bench install-app hrms
+2022-12-07 17:03:08,751 INFO /usr/local/bin/bench uninstall-app hrms
+2022-12-07 17:03:17,835 INFO /usr/local/bin/bench install-app hrms
+2022-12-07 17:04:07,478 INFO /usr/local/bin/bench install-app hrms
+2022-12-07 17:05:01,675 INFO /usr/local/bin/bench --site erpnext13.com uninstall-app hrms
+2022-12-07 17:05:13,216 INFO /usr/local/bin/bench remove-app hrms
+2022-12-07 17:05:14,137 WARNING /usr/local/bin/bench remove-app hrms executed with exit code 1
+2022-12-07 17:06:30,764 INFO /usr/local/bin/bench get-app hrms
+2022-12-07 17:06:32,375 LOG Getting hrms
+2022-12-07 17:06:32,376 DEBUG cd ./apps && git clone https://github.com/frappe/hrms.git  --depth 1 --origin upstream
+2022-12-07 17:06:34,728 LOG Installing hrms
+2022-12-07 17:06:34,728 DEBUG cd /home/eorchids/frappe-bench13 && /home/eorchids/frappe-bench13/env/bin/python -m pip install --quiet --upgrade -e /home/eorchids/frappe-bench13/apps/hrms 
+2022-12-07 17:06:38,719 DEBUG bench build --app hrms
+2022-12-07 17:06:39,079 INFO /usr/local/bin/bench build --app hrms
+2022-12-07 17:07:12,981 INFO /usr/local/bin/bench --site erpnext13.com install-app hrms
+2022-12-07 17:08:09,479 INFO /usr/local/bin/bench start
+2022-12-07 17:08:11,592 INFO /usr/local/bin/bench worker --queue long
+2022-12-07 17:08:11,668 INFO /usr/local/bin/bench serve --port 8005
+2022-12-07 17:08:11,706 INFO /usr/local/bin/bench schedule
+2022-12-07 17:08:11,707 INFO /usr/local/bin/bench watch
+2022-12-07 17:08:11,723 INFO /usr/local/bin/bench worker --queue default
+2022-12-07 17:08:11,807 INFO /usr/local/bin/bench worker --queue short
+2022-12-07 17:08:26,176 INFO /usr/local/bin/bench --site erpnext13.com install-app hrms
+2022-12-07 17:59:19,760 INFO /usr/local/bin/bench get-app library management
+2022-12-07 17:59:23,055 WARNING /usr/local/bin/bench get-app library management executed with exit code 1
+2022-12-07 18:00:01,814 INFO /usr/local/bin/bench --verbose --site all backup
+2022-12-08 12:00:09,594 INFO /usr/local/bin/bench --verbose --site all backup
+2022-12-08 18:00:03,867 INFO /usr/local/bin/bench --verbose --site all backup
+2022-12-09 12:00:08,738 INFO /usr/local/bin/bench --verbose --site all backup
+2022-12-09 18:00:03,336 INFO /usr/local/bin/bench --verbose --site all backup
+2022-12-12 12:00:09,464 INFO /usr/local/bin/bench --verbose --site all backup
+2022-12-12 18:00:03,744 INFO /usr/local/bin/bench --verbose --site all backup
+2022-12-13 12:00:10,509 INFO /usr/local/bin/bench --verbose --site all backup
+2022-12-13 18:00:10,784 INFO /usr/local/bin/bench --verbose --site all backup
+2022-12-13 18:24:22,430 INFO /usr/local/bin/bench start
+2022-12-13 18:24:32,149 INFO /usr/local/bin/bench worker --queue long
+2022-12-13 18:24:32,290 INFO /usr/local/bin/bench serve --port 8005
+2022-12-13 18:24:32,298 INFO /usr/local/bin/bench worker --queue default
+2022-12-13 18:24:32,315 INFO /usr/local/bin/bench worker --queue short
+2022-12-13 18:24:32,356 INFO /usr/local/bin/bench schedule
+2022-12-13 18:24:32,385 INFO /usr/local/bin/bench watch
+2022-12-14 12:00:10,197 INFO /usr/local/bin/bench --verbose --site all backup
+2022-12-14 12:44:53,385 INFO /usr/local/bin/bench start
+2022-12-14 12:45:02,707 INFO /usr/local/bin/bench worker --queue default
+2022-12-14 12:45:02,813 INFO /usr/local/bin/bench worker --queue short
+2022-12-14 12:45:02,901 INFO /usr/local/bin/bench watch
+2022-12-14 12:45:02,927 INFO /usr/local/bin/bench schedule
+2022-12-14 12:45:02,981 INFO /usr/local/bin/bench serve --port 8005
+2022-12-14 12:45:03,180 INFO /usr/local/bin/bench worker --queue long
+2022-12-14 18:00:11,211 INFO /usr/local/bin/bench --verbose --site all backup
+2022-12-15 12:00:09,993 INFO /usr/local/bin/bench --verbose --site all backup
+2022-12-15 14:46:02,083 INFO /usr/local/bin/bench start
+2022-12-15 14:46:12,403 INFO /usr/local/bin/bench watch
+2022-12-15 14:46:12,479 INFO /usr/local/bin/bench worker --queue default
+2022-12-15 14:46:12,520 INFO /usr/local/bin/bench worker --queue short
+2022-12-15 14:46:12,527 INFO /usr/local/bin/bench schedule
+2022-12-15 14:46:12,533 INFO /usr/local/bin/bench serve --port 8005
+2022-12-15 14:46:12,562 INFO /usr/local/bin/bench worker --queue long
+2022-12-15 14:51:07,709 INFO /usr/local/bin/bench get-app library_management
+2022-12-15 14:51:28,224 LOG Getting library_management
+2022-12-15 14:51:28,225 DEBUG cd ./apps && git clone https://github.com/frappe/library_management.git  --depth 1 --origin upstream
+2022-12-15 14:51:30,949 LOG Installing library_management
+2022-12-15 14:51:30,950 DEBUG cd /home/eorchids/frappe-bench13 && /home/eorchids/frappe-bench13/env/bin/python -m pip install --quiet --upgrade -e /home/eorchids/frappe-bench13/apps/library_management 
+2022-12-15 14:51:39,021 WARNING /usr/local/bin/bench get-app library_management executed with exit code 1
+2022-12-15 14:52:46,891 INFO /usr/local/bin/bench get-app https://github.com/frappe/library_management.git
+2022-12-15 14:52:48,197 LOG Getting library_management
+2022-12-15 14:52:48,197 DEBUG cd ./apps && git clone https://github.com/frappe/library_management.git  --depth 1 --origin upstream
+2022-12-15 14:52:55,007 LOG Installing library_management
+2022-12-15 14:52:55,009 DEBUG cd /home/eorchids/frappe-bench13 && /home/eorchids/frappe-bench13/env/bin/python -m pip install --quiet --upgrade -e /home/eorchids/frappe-bench13/apps/library_management 
+2022-12-15 14:52:59,780 WARNING /usr/local/bin/bench get-app https://github.com/frappe/library_management.git executed with exit code 1
+2022-12-15 14:53:23,733 INFO /usr/local/bin/bench start
+2022-12-15 14:53:26,728 INFO /usr/local/bin/bench worker --queue default
+2022-12-15 14:53:26,775 INFO /usr/local/bin/bench schedule
+2022-12-15 14:53:26,777 INFO /usr/local/bin/bench serve --port 8005
+2022-12-15 14:53:26,814 INFO /usr/local/bin/bench worker --queue short
+2022-12-15 14:53:26,927 INFO /usr/local/bin/bench worker --queue long
+2022-12-15 14:53:26,943 INFO /usr/local/bin/bench watch
+2022-12-15 14:55:27,876 INFO /usr/local/bin/bench --site erpnext13.com install-app library_management
+2022-12-15 18:00:08,654 INFO /usr/local/bin/bench --verbose --site all backup
+2022-12-16 12:00:09,065 INFO /usr/local/bin/bench --verbose --site all backup
+2022-12-16 18:00:05,813 INFO /usr/local/bin/bench --verbose --site all backup
+2022-12-19 11:48:12,116 INFO /usr/local/bin/bench start
+2022-12-19 11:48:23,828 INFO /usr/local/bin/bench serve --port 8005
+2022-12-19 11:48:23,849 INFO /usr/local/bin/bench worker --queue short
+2022-12-19 11:48:23,877 INFO /usr/local/bin/bench schedule
+2022-12-19 11:48:23,950 INFO /usr/local/bin/bench worker --queue long
+2022-12-19 11:48:23,968 INFO /usr/local/bin/bench worker --queue default
+2022-12-19 11:48:24,030 INFO /usr/local/bin/bench watch
+2022-12-19 12:00:11,350 INFO /usr/local/bin/bench --verbose --site all backup
+2022-12-19 18:00:11,274 INFO /usr/local/bin/bench --verbose --site all backup
+2022-12-20 12:00:10,042 INFO /usr/local/bin/bench --verbose --site all backup
+2022-12-20 18:00:03,742 INFO /usr/local/bin/bench --verbose --site all backup
+2022-12-21 12:00:12,134 INFO /usr/local/bin/bench --verbose --site all backup
+2022-12-21 18:00:10,007 INFO /usr/local/bin/bench --verbose --site all backup
+2022-12-22 12:00:18,728 INFO /usr/local/bin/bench --verbose --site all backup
+2022-12-22 18:00:09,014 INFO /usr/local/bin/bench --verbose --site all backup
+2022-12-23 12:00:09,998 INFO /usr/local/bin/bench --verbose --site all backup
+2022-12-23 18:00:09,263 INFO /usr/local/bin/bench --verbose --site all backup
+2022-12-24 12:00:09,938 INFO /usr/local/bin/bench --verbose --site all backup
+2022-12-26 12:00:10,253 INFO /usr/local/bin/bench --verbose --site all backup
+2022-12-26 18:00:08,831 INFO /usr/local/bin/bench --verbose --site all backup
+2022-12-27 12:00:09,500 INFO /usr/local/bin/bench --verbose --site all backup
+2022-12-27 18:00:04,879 INFO /usr/local/bin/bench --verbose --site all backup
+2022-12-28 12:00:08,820 INFO /usr/local/bin/bench --verbose --site all backup
+2022-12-28 18:00:10,951 INFO /usr/local/bin/bench --verbose --site all backup
+2022-12-29 12:00:09,083 INFO /usr/local/bin/bench --verbose --site all backup
+2022-12-29 18:00:04,532 INFO /usr/local/bin/bench --verbose --site all backup
+2022-12-30 10:38:17,867 INFO /usr/local/bin/bench start
+2022-12-30 10:38:28,870 INFO /usr/local/bin/bench worker --queue short
+2022-12-30 10:38:28,958 INFO /usr/local/bin/bench serve --port 8005
+2022-12-30 10:38:29,008 INFO /usr/local/bin/bench worker --queue long
+2022-12-30 10:38:29,023 INFO /usr/local/bin/bench watch
+2022-12-30 10:38:29,111 INFO /usr/local/bin/bench worker --queue default
+2022-12-30 10:38:29,179 INFO /usr/local/bin/bench schedule
+2022-12-30 11:24:41,090 INFO /usr/local/bin/bench add-spa --app react
+2022-12-30 11:24:48,700 WARNING /usr/local/bin/bench add-spa --app react executed with exit code 2
+2022-12-30 11:24:58,590 INFO /usr/local/bin/bench add-spa react
+2022-12-30 11:24:59,508 WARNING /usr/local/bin/bench add-spa react executed with exit code 2
+2022-12-30 11:25:07,773 INFO /usr/local/bin/bench version
+2022-12-30 11:25:33,441 INFO /usr/local/bin/bench version
+2022-12-30 11:25:57,156 INFO /usr/local/bin/bench version
+2022-12-30 11:26:49,610 INFO /usr/local/bin/bench version
+2022-12-30 11:27:01,300 INFO /usr/local/bin/bench add-spa --app react
+2022-12-30 11:27:02,199 WARNING /usr/local/bin/bench add-spa --app react executed with exit code 2
+2022-12-30 11:27:07,123 INFO /usr/local/bin/bench version
+2022-12-30 11:27:15,301 INFO /usr/local/bin/bench add-spa react
+2022-12-30 11:27:16,201 WARNING /usr/local/bin/bench add-spa react executed with exit code 2
+2022-12-30 11:27:21,984 INFO /usr/local/bin/bench start
+2022-12-30 11:27:24,822 INFO /usr/local/bin/bench worker --queue short
+2022-12-30 11:27:24,830 INFO /usr/local/bin/bench serve --port 8005
+2022-12-30 11:27:24,845 INFO /usr/local/bin/bench watch
+2022-12-30 11:27:24,998 INFO /usr/local/bin/bench worker --queue long
+2022-12-30 11:27:25,052 INFO /usr/local/bin/bench worker --queue default
+2022-12-30 11:27:25,090 INFO /usr/local/bin/bench schedule
+2022-12-30 12:00:10,865 INFO /usr/local/bin/bench --verbose --site all backup
+2022-12-30 18:00:11,549 INFO /usr/local/bin/bench --verbose --site all backup
+2023-01-02 12:00:10,404 INFO /usr/local/bin/bench --verbose --site all backup
+2023-01-02 18:00:34,255 INFO /usr/local/bin/bench --verbose --site all backup
+2023-01-03 12:00:09,755 INFO /usr/local/bin/bench --verbose --site all backup
+2023-01-03 18:00:08,489 INFO /usr/local/bin/bench --verbose --site all backup
+2023-01-03 19:49:14,052 INFO /usr/local/bin/bench start
+2023-01-03 19:49:25,217 INFO /usr/local/bin/bench watch
+2023-01-03 19:49:25,219 INFO /usr/local/bin/bench schedule
+2023-01-03 19:49:25,309 INFO /usr/local/bin/bench worker --queue short
+2023-01-03 19:49:25,419 INFO /usr/local/bin/bench serve --port 8005
+2023-01-03 19:49:25,462 INFO /usr/local/bin/bench worker --queue default
+2023-01-03 19:49:25,493 INFO /usr/local/bin/bench worker --queue long
+2023-01-04 12:00:10,264 INFO /usr/local/bin/bench --verbose --site all backup
+2023-01-04 18:00:09,737 INFO /usr/local/bin/bench --verbose --site all backup
+2023-01-04 18:29:16,730 INFO /usr/local/bin/bench start
+2023-01-04 18:29:26,469 INFO /usr/local/bin/bench serve --port 8005
+2023-01-04 18:29:26,574 INFO /usr/local/bin/bench watch
+2023-01-04 18:29:26,640 INFO /usr/local/bin/bench worker --queue short
+2023-01-04 18:29:26,710 INFO /usr/local/bin/bench worker --queue default
+2023-01-04 18:29:26,774 INFO /usr/local/bin/bench schedule
+2023-01-04 18:29:26,802 INFO /usr/local/bin/bench worker --queue long
+2023-01-04 18:36:15,824 INFO /usr/local/bin/bench start
+2023-01-04 18:37:48,008 INFO /usr/local/bin/bench schedule
+2023-01-04 18:37:48,069 INFO /usr/local/bin/bench worker --queue long
+2023-01-04 18:37:48,094 INFO /usr/local/bin/bench serve --port 8005
+2023-01-04 18:37:48,177 INFO /usr/local/bin/bench watch
+2023-01-04 18:37:48,185 INFO /usr/local/bin/bench worker --queue short
+2023-01-04 18:37:48,240 INFO /usr/local/bin/bench worker --queue default
+2023-01-05 10:08:08,399 INFO /usr/local/bin/bench start
+2023-01-05 10:08:50,998 INFO /usr/local/bin/bench worker --queue long
+2023-01-05 10:08:51,061 INFO /usr/local/bin/bench schedule
+2023-01-05 10:08:51,143 INFO /usr/local/bin/bench serve --port 8005
+2023-01-05 10:08:51,178 INFO /usr/local/bin/bench watch
+2023-01-05 10:08:51,257 INFO /usr/local/bin/bench worker --queue default
+2023-01-05 10:08:51,285 INFO /usr/local/bin/bench worker --queue short
+2023-01-05 12:00:09,431 INFO /usr/local/bin/bench --verbose --site all backup
+2023-01-05 18:00:12,253 INFO /usr/local/bin/bench --verbose --site all backup
+2023-01-06 12:00:09,521 INFO /usr/local/bin/bench --verbose --site all backup
+2023-01-06 17:42:48,941 INFO /usr/local/bin/bench start
+2023-01-06 17:43:03,697 INFO /usr/local/bin/bench worker --queue default
+2023-01-06 17:43:03,697 INFO /usr/local/bin/bench worker --queue short
+2023-01-06 17:43:03,697 INFO /usr/local/bin/bench serve --port 8005
+2023-01-06 17:43:03,704 INFO /usr/local/bin/bench worker --queue long
+2023-01-06 17:43:03,706 INFO /usr/local/bin/bench watch
+2023-01-06 17:43:03,707 INFO /usr/local/bin/bench schedule
+2023-01-06 18:01:12,064 INFO /usr/local/bin/bench --verbose --site all backup
+2023-01-07 12:00:09,617 INFO /usr/local/bin/bench --verbose --site all backup
+2023-01-09 12:00:11,597 INFO /usr/local/bin/bench --verbose --site all backup
+2023-01-09 18:00:09,935 INFO /usr/local/bin/bench --verbose --site all backup
+2023-01-10 12:00:08,731 INFO /usr/local/bin/bench --verbose --site all backup
+2023-01-10 18:00:09,271 INFO /usr/local/bin/bench --verbose --site all backup
+2023-01-11 10:41:15,896 INFO /usr/local/bin/bench start
+2023-01-11 10:41:24,579 INFO /usr/local/bin/bench schedule
+2023-01-11 10:41:24,739 INFO /usr/local/bin/bench serve --port 8005
+2023-01-11 10:41:24,740 INFO /usr/local/bin/bench worker --queue default
+2023-01-11 10:41:24,754 INFO /usr/local/bin/bench watch
+2023-01-11 10:41:24,796 INFO /usr/local/bin/bench worker --queue short
+2023-01-11 10:41:24,805 INFO /usr/local/bin/bench worker --queue long
+2023-01-11 10:50:32,644 INFO /usr/local/bin/bench migrate
+2023-01-11 10:53:08,082 INFO /usr/local/bin/bench start
+2023-01-11 10:54:01,144 INFO /usr/local/bin/bench start
+2023-01-11 10:54:03,445 INFO /usr/local/bin/bench watch
+2023-01-11 10:54:03,536 INFO /usr/local/bin/bench worker --queue short
+2023-01-11 10:54:03,543 INFO /usr/local/bin/bench serve --port 8005
+2023-01-11 10:54:03,560 INFO /usr/local/bin/bench worker --queue long
+2023-01-11 10:54:03,565 INFO /usr/local/bin/bench worker --queue default
+2023-01-11 10:54:03,730 INFO /usr/local/bin/bench schedule
+2023-01-11 11:15:59,414 INFO /usr/local/bin/bench get-app hrms
+2023-01-11 11:16:10,521 LOG Getting hrms
+2023-01-11 11:16:10,521 DEBUG cd ./apps && git clone hrms --branch develop --depth 1 --origin upstream
+2023-01-11 11:16:10,524 WARNING cd ./apps && git clone hrms --branch develop --depth 1 --origin upstream executed with exit code 128
+2023-01-11 11:16:10,524 WARNING /usr/local/bin/bench get-app hrms executed with exit code 1
+2023-01-11 11:16:18,749 INFO /usr/local/bin/bench version
+2023-01-11 11:17:22,618 INFO /usr/local/bin/bench version
+2023-01-11 11:17:56,314 INFO /usr/local/bin/bench get-app hrms
+2023-01-11 11:17:57,921 LOG Getting hrms
+2023-01-11 11:17:57,921 DEBUG cd ./apps && git clone https://github.com/frappe/hrms.git  --depth 1 --origin upstream
+2023-01-11 11:17:59,943 LOG Installing hrms
+2023-01-11 11:17:59,944 DEBUG cd /home/eorchids/frappe-bench13 && /home/eorchids/frappe-bench13/env/bin/python -m pip install --quiet --upgrade -e /home/eorchids/frappe-bench13/apps/hrms 
+2023-01-11 11:18:05,642 DEBUG bench build --app hrms
+2023-01-11 11:18:05,996 INFO /usr/local/bin/bench build --app hrms
+2023-01-11 11:18:26,131 INFO /usr/local/bin/bench get-app hrms
+2023-01-11 11:18:28,852 LOG Getting hrms
+2023-01-11 11:18:28,852 DEBUG cd ./apps && git clone hrms --branch develop --depth 1 --origin upstream
+2023-01-11 11:18:28,854 WARNING cd ./apps && git clone hrms --branch develop --depth 1 --origin upstream executed with exit code 128
+2023-01-11 11:18:28,855 WARNING /usr/local/bin/bench get-app hrms executed with exit code 1
+2023-01-11 11:18:33,193 INFO /usr/local/bin/bench version
+2023-01-11 11:18:54,348 INFO /usr/local/bin/bench version
+2023-01-11 11:19:11,691 INFO /usr/local/bin/bench version
+2023-01-11 11:19:27,059 INFO /usr/local/bin/bench get-app hrms
+2023-01-11 11:19:28,728 LOG Getting hrms
+2023-01-11 11:19:28,728 DEBUG cd ./apps && git clone https://github.com/frappe/hrms.git  --depth 1 --origin upstream
+2023-01-11 11:19:31,001 LOG Installing hrms
+2023-01-11 11:19:31,002 DEBUG cd /home/eorchids/frappe-bench13 && /home/eorchids/frappe-bench13/env/bin/python -m pip install --quiet --upgrade -e /home/eorchids/frappe-bench13/apps/hrms 
+2023-01-11 11:19:35,117 DEBUG bench build --app hrms
+2023-01-11 11:19:35,468 INFO /usr/local/bin/bench build --app hrms
+2023-01-11 11:19:58,909 INFO /usr/local/bin/bench install-app hrms
+2023-01-11 11:20:18,525 INFO /usr/local/bin/bench start
+2023-01-11 11:20:21,216 INFO /usr/local/bin/bench worker --queue long
+2023-01-11 11:20:21,231 INFO /usr/local/bin/bench watch
+2023-01-11 11:20:21,248 INFO /usr/local/bin/bench schedule
+2023-01-11 11:20:21,287 INFO /usr/local/bin/bench worker --queue default
+2023-01-11 11:20:21,305 INFO /usr/local/bin/bench serve --port 8005
+2023-01-11 11:20:21,460 INFO /usr/local/bin/bench worker --queue short
+2023-01-11 11:21:06,399 INFO /usr/local/bin/bench version
+2023-01-11 11:21:41,552 INFO /usr/local/bin/bench version
+2023-01-11 11:23:31,986 INFO /usr/local/bin/bench --site erpnext13.com install-app hrms
+2023-01-11 11:24:22,193 INFO /usr/local/bin/bench --site erpnext13.com install-app hrms
+2023-01-11 11:26:20,922 INFO /usr/local/bin/bench --site site_name uninstall-app hrms
+2023-01-11 11:27:04,262 INFO /usr/local/bin/bench --site erpnext13.com uninstall-app hrms
+2023-01-11 11:27:21,554 INFO /usr/local/bin/bench remove-app hrms
+2023-01-11 11:27:24,391 INFO /usr/local/bin/bench --site all list-apps --format json
+2023-01-11 11:27:25,402 INFO /usr/local/bin/bench --site erpnext13.com list-apps
+2023-01-11 11:27:25,784 DEBUG cd /home/eorchids/frappe-bench13 && /home/eorchids/frappe-bench13/env/bin/python -m pip uninstall -y hrms
+2023-01-11 11:27:29,444 INFO App moved from apps/hrms to archived/apps/hrms-2023-01-11
+2023-01-11 11:27:56,173 INFO /usr/local/bin/bench --site erpnext13.com install-app hrms
+2023-01-11 11:28:24,644 INFO /usr/local/bin/bench install-app hrms
+2023-01-11 11:28:36,806 INFO /usr/local/bin/bench install-app hrms
+2023-01-11 11:29:15,517 INFO /usr/local/bin/bench install-app hrms
+2023-01-11 11:30:20,911 INFO /usr/local/bin/bench get-app hrms
+2023-01-11 11:30:22,401 LOG Getting hrms
+2023-01-11 11:30:22,401 DEBUG cd ./apps && git clone https://github.com/frappe/hrms.git  --depth 1 --origin upstream
+2023-01-11 11:30:24,973 LOG Installing hrms
+2023-01-11 11:30:24,974 DEBUG cd /home/eorchids/frappe-bench13 && /home/eorchids/frappe-bench13/env/bin/python -m pip install --quiet --upgrade -e /home/eorchids/frappe-bench13/apps/hrms 
+2023-01-11 11:30:30,029 DEBUG bench build --app hrms
+2023-01-11 11:30:30,405 INFO /usr/local/bin/bench build --app hrms
+2023-01-11 11:30:42,115 INFO /usr/local/bin/bench --site erpnext13.com install-app hrms
+2023-01-11 11:30:54,548 INFO /usr/local/bin/bench --site erpnext13.com uninstall-app hrms
+2023-01-11 11:31:07,346 INFO /usr/local/bin/bench version
+2023-01-11 11:31:20,508 INFO /usr/local/bin/bench uninstall-app hrms
+2023-01-11 11:31:41,466 INFO /usr/local/bin/bench remove-app hrms
+2023-01-11 11:31:42,723 INFO /usr/local/bin/bench --site all list-apps --format json
+2023-01-11 11:31:43,637 INFO /usr/local/bin/bench --site erpnext13.com list-apps
+2023-01-11 11:31:44,024 DEBUG cd /home/eorchids/frappe-bench13 && /home/eorchids/frappe-bench13/env/bin/python -m pip uninstall -y hrms
+2023-01-11 11:31:44,776 INFO App moved from apps/hrms to archived/apps/hrms-2023-01-11_1
+2023-01-11 11:31:49,828 INFO /usr/local/bin/bench version
+2023-01-11 11:32:09,227 INFO /usr/local/bin/bench version
+2023-01-11 11:34:09,869 INFO /usr/local/bin/bench version
+2023-01-11 11:35:07,741 INFO /usr/local/bin/bench get-app hrms
+2023-01-11 11:35:09,494 LOG Getting hrms
+2023-01-11 11:35:09,494 DEBUG cd ./apps && git clone https://github.com/frappe/hrms.git  --depth 1 --origin upstream
+2023-01-11 11:35:12,049 LOG Installing hrms
+2023-01-11 11:35:12,050 DEBUG cd /home/eorchids/frappe-bench13 && /home/eorchids/frappe-bench13/env/bin/python -m pip install --quiet --upgrade -e /home/eorchids/frappe-bench13/apps/hrms 
+2023-01-11 11:35:15,945 DEBUG bench build --app hrms
+2023-01-11 11:35:16,306 INFO /usr/local/bin/bench build --app hrms
+2023-01-11 11:36:34,504 INFO /usr/local/bin/bench --site erpnext13.com install-app hrms
+2023-01-11 11:37:06,047 INFO /usr/local/bin/bench --site erpnext13.com uninstall-app hrms
+2023-01-11 11:37:27,944 INFO /usr/local/bin/bench uninstall-app hrms
+2023-01-11 12:00:02,317 INFO /usr/local/bin/bench --verbose --site all backup
+2023-01-11 12:45:39,262 INFO /usr/local/bin/bench --site erpnext13.com add-to-hosts
+2023-01-11 12:46:11,509 INFO /usr/local/bin/bench --site erpnext13.com add-to-hosts
+2023-01-11 12:46:59,638 INFO /usr/local/bin/bench start
+2023-01-11 12:47:02,845 INFO /usr/local/bin/bench schedule
+2023-01-11 12:47:02,906 INFO /usr/local/bin/bench worker --queue short
+2023-01-11 12:47:02,930 INFO /usr/local/bin/bench worker --queue default
+2023-01-11 12:47:02,962 INFO /usr/local/bin/bench worker --queue long
+2023-01-11 12:47:02,977 INFO /usr/local/bin/bench serve --port 8005
+2023-01-11 12:47:02,980 INFO /usr/local/bin/bench watch
+2023-01-11 12:50:49,247 INFO /usr/local/bin/bench start
+2023-01-11 12:50:53,787 INFO /usr/local/bin/bench serve --port 8005
+2023-01-11 12:50:53,832 INFO /usr/local/bin/bench schedule
+2023-01-11 12:50:53,978 INFO /usr/local/bin/bench worker --queue long
+2023-01-11 12:50:54,000 INFO /usr/local/bin/bench watch
+2023-01-11 12:50:54,075 INFO /usr/local/bin/bench worker --queue short
+2023-01-11 12:50:54,166 INFO /usr/local/bin/bench worker --queue default
+2023-01-11 13:02:57,595 INFO /usr/local/bin/bench version
+2023-01-11 18:00:11,037 INFO /usr/local/bin/bench --verbose --site all backup
+2023-01-13 10:24:17,692 INFO /usr/local/bin/bench start
+2023-01-13 10:25:11,486 INFO /usr/local/bin/bench start
+2023-01-13 10:25:15,777 INFO /usr/local/bin/bench worker --queue short
+2023-01-13 10:25:15,791 INFO /usr/local/bin/bench serve --port 8005
+2023-01-13 10:25:15,801 INFO /usr/local/bin/bench watch
+2023-01-13 10:25:15,832 INFO /usr/local/bin/bench worker --queue long
+2023-01-13 10:25:15,840 INFO /usr/local/bin/bench schedule
+2023-01-13 10:25:15,842 INFO /usr/local/bin/bench worker --queue default
+2023-01-13 12:00:10,052 INFO /usr/local/bin/bench --verbose --site all backup
+2023-01-13 18:00:11,846 INFO /usr/local/bin/bench --verbose --site all backup
+2023-01-16 12:00:09,871 INFO /usr/local/bin/bench --verbose --site all backup
+2023-01-16 18:00:02,220 INFO /usr/local/bin/bench --verbose --site all backup
+2023-01-17 12:00:11,320 INFO /usr/local/bin/bench --verbose --site all backup
+2023-01-17 18:00:10,003 INFO /usr/local/bin/bench --verbose --site all backup
+2023-01-18 10:24:13,013 INFO /usr/local/bin/bench start
+2023-01-18 10:24:24,765 INFO /usr/local/bin/bench serve --port 8005
+2023-01-18 10:24:24,777 INFO /usr/local/bin/bench schedule
+2023-01-18 10:24:24,808 INFO /usr/local/bin/bench watch
+2023-01-18 10:24:24,822 INFO /usr/local/bin/bench worker --queue short
+2023-01-18 10:24:24,884 INFO /usr/local/bin/bench worker --queue default
+2023-01-18 10:24:24,903 INFO /usr/local/bin/bench worker --queue long

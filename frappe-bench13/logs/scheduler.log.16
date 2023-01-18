@@ -1,0 +1,745 @@
+2023-01-05 16:35:22,550 DEBUG scheduler Queued events for site erpnext13.com
+2023-01-05 16:35:22,576 INFO scheduler Scheduled Job Start: erpnext.manufacturing.doctype.bom_update_log.bom_update_log.resume_bom_cost_update_jobs for erpnext13.com
+2023-01-05 16:35:23,005 INFO scheduler Scheduled Job Complete: erpnext.manufacturing.doctype.bom_update_log.bom_update_log.resume_bom_cost_update_jobs for erpnext13.com
+2023-01-05 16:36:22,785 INFO scheduler Scheduled Job Start: payments.payment_gateways.doctype.razorpay_settings.razorpay_settings.capture_payment for erpnext13.com
+2023-01-05 16:36:23,000 DEBUG scheduler Queued events for site erpnext13.com
+2023-01-05 16:36:23,332 INFO scheduler Scheduled Job Complete: payments.payment_gateways.doctype.razorpay_settings.razorpay_settings.capture_payment for erpnext13.com
+2023-01-05 16:36:23,414 INFO scheduler Scheduled Job Start: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for erpnext13.com
+2023-01-05 16:36:23,669 INFO scheduler Scheduled Job Complete: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for erpnext13.com
+2023-01-05 16:36:23,752 INFO scheduler Scheduled Job Start: erpnext.hr.doctype.interview.interview.send_interview_reminder for erpnext13.com
+2023-01-05 16:36:24,022 INFO scheduler Scheduled Job Complete: erpnext.hr.doctype.interview.interview.send_interview_reminder for erpnext13.com
+2023-01-05 16:36:24,115 INFO scheduler Scheduled Job Start: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for erpnext13.com
+2023-01-05 16:36:24,361 INFO scheduler Scheduled Job Complete: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for erpnext13.com
+2023-01-05 16:36:24,448 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.project_status_update_reminder for erpnext13.com
+2023-01-05 16:36:24,854 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.project_status_update_reminder for erpnext13.com
+2023-01-05 16:36:24,964 INFO scheduler Scheduled Job Start: frappe.monitor.flush for erpnext13.com
+2023-01-05 16:36:25,245 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for erpnext13.com
+2023-01-05 16:36:25,403 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for erpnext13.com
+2023-01-05 16:36:25,610 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for erpnext13.com
+2023-01-05 16:36:25,686 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for erpnext13.com
+2023-01-05 16:36:25,969 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for erpnext13.com
+2023-01-05 16:36:26,046 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for erpnext13.com
+2023-01-05 16:36:26,352 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for erpnext13.com
+2023-01-05 16:36:26,429 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for erpnext13.com
+2023-01-05 16:36:26,657 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for erpnext13.com
+2023-01-05 16:37:23,237 DEBUG scheduler Queued events for site erpnext13.com
+2023-01-05 16:38:23,456 DEBUG scheduler Queued events for site erpnext13.com
+2023-01-05 16:39:23,720 DEBUG scheduler Queued events for site erpnext13.com
+2023-01-05 16:40:35,228 DEBUG scheduler Queued events for site erpnext13.com
+2023-01-05 16:41:10,009 INFO scheduler Scheduled Job Start: payments.payment_gateways.doctype.razorpay_settings.razorpay_settings.capture_payment for erpnext13.com
+2023-01-05 16:41:37,269 DEBUG scheduler Queued events for site erpnext13.com
+2023-01-05 16:41:37,359 INFO scheduler Scheduled Job Complete: payments.payment_gateways.doctype.razorpay_settings.razorpay_settings.capture_payment for erpnext13.com
+2023-01-05 16:41:42,660 INFO scheduler Scheduled Job Start: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for erpnext13.com
+2023-01-05 16:41:44,690 INFO scheduler Scheduled Job Complete: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for erpnext13.com
+2023-01-05 16:41:44,827 INFO scheduler Scheduled Job Start: erpnext.hr.doctype.interview.interview.send_interview_reminder for erpnext13.com
+2023-01-05 16:41:45,933 INFO scheduler Scheduled Job Complete: erpnext.hr.doctype.interview.interview.send_interview_reminder for erpnext13.com
+2023-01-05 16:41:46,035 INFO scheduler Scheduled Job Start: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for erpnext13.com
+2023-01-05 16:41:47,788 INFO scheduler Scheduled Job Complete: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for erpnext13.com
+2023-01-05 16:41:47,878 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.project_status_update_reminder for erpnext13.com
+2023-01-05 16:41:53,073 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.project_status_update_reminder for erpnext13.com
+2023-01-05 16:41:53,150 INFO scheduler Scheduled Job Start: erpnext.manufacturing.doctype.bom_update_log.bom_update_log.resume_bom_cost_update_jobs for erpnext13.com
+2023-01-05 16:41:56,990 INFO scheduler Scheduled Job Complete: erpnext.manufacturing.doctype.bom_update_log.bom_update_log.resume_bom_cost_update_jobs for erpnext13.com
+2023-01-05 16:41:57,410 INFO scheduler Scheduled Job Start: frappe.monitor.flush for erpnext13.com
+2023-01-05 16:41:57,652 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for erpnext13.com
+2023-01-05 16:41:57,765 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for erpnext13.com
+2023-01-05 16:41:58,039 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for erpnext13.com
+2023-01-05 16:41:58,139 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for erpnext13.com
+2023-01-05 16:41:59,784 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for erpnext13.com
+2023-01-05 16:41:59,861 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for erpnext13.com
+2023-01-05 16:42:00,137 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for erpnext13.com
+2023-01-05 16:42:00,212 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for erpnext13.com
+2023-01-05 16:42:00,483 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for erpnext13.com
+2023-01-05 16:42:37,560 DEBUG scheduler Queued events for site erpnext13.com
+2023-01-05 16:43:37,927 DEBUG scheduler Queued events for site erpnext13.com
+2023-01-05 16:44:38,108 INFO scheduler Scheduled Job Start: payments.payment_gateways.doctype.razorpay_settings.razorpay_settings.capture_payment for erpnext13.com
+2023-01-05 16:44:38,267 DEBUG scheduler Queued events for site erpnext13.com
+2023-01-05 16:44:38,553 INFO scheduler Scheduled Job Complete: payments.payment_gateways.doctype.razorpay_settings.razorpay_settings.capture_payment for erpnext13.com
+2023-01-05 16:44:38,644 INFO scheduler Scheduled Job Start: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for erpnext13.com
+2023-01-05 16:44:38,966 INFO scheduler Scheduled Job Complete: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for erpnext13.com
+2023-01-05 16:44:39,053 INFO scheduler Scheduled Job Start: erpnext.hr.doctype.interview.interview.send_interview_reminder for erpnext13.com
+2023-01-05 16:44:39,523 INFO scheduler Scheduled Job Complete: erpnext.hr.doctype.interview.interview.send_interview_reminder for erpnext13.com
+2023-01-05 16:44:39,624 INFO scheduler Scheduled Job Start: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for erpnext13.com
+2023-01-05 16:44:40,110 INFO scheduler Scheduled Job Complete: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for erpnext13.com
+2023-01-05 16:44:40,259 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.project_status_update_reminder for erpnext13.com
+2023-01-05 16:44:40,918 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.project_status_update_reminder for erpnext13.com
+2023-01-05 16:44:41,052 INFO scheduler Scheduled Job Start: frappe.monitor.flush for erpnext13.com
+2023-01-05 16:44:41,485 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for erpnext13.com
+2023-01-05 16:44:41,626 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for erpnext13.com
+2023-01-05 16:44:41,917 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for erpnext13.com
+2023-01-05 16:44:42,032 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for erpnext13.com
+2023-01-05 16:44:42,495 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for erpnext13.com
+2023-01-05 16:44:42,574 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for erpnext13.com
+2023-01-05 16:44:42,982 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for erpnext13.com
+2023-01-05 16:44:43,071 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for erpnext13.com
+2023-01-05 16:44:43,412 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for erpnext13.com
+2023-01-05 16:45:38,545 INFO scheduler Scheduled Job Start: erpnext.manufacturing.doctype.bom_update_log.bom_update_log.resume_bom_cost_update_jobs for erpnext13.com
+2023-01-05 16:45:38,558 DEBUG scheduler Queued events for site erpnext13.com
+2023-01-05 16:45:38,845 INFO scheduler Scheduled Job Complete: erpnext.manufacturing.doctype.bom_update_log.bom_update_log.resume_bom_cost_update_jobs for erpnext13.com
+2023-01-05 16:45:38,971 INFO scheduler Scheduled Job Start: frappe.twofactor.delete_all_barcodes_for_users for erpnext13.com
+2023-01-05 16:45:39,448 INFO scheduler Scheduled Job Complete: frappe.twofactor.delete_all_barcodes_for_users for erpnext13.com
+2023-01-05 16:45:39,549 INFO scheduler Scheduled Job Start: frappe.website.doctype.web_page.web_page.check_publish_status for erpnext13.com
+2023-01-05 16:45:40,153 INFO scheduler Scheduled Job Complete: frappe.website.doctype.web_page.web_page.check_publish_status for erpnext13.com
+2023-01-05 16:45:40,257 INFO scheduler Scheduled Job Start: frappe.oauth.delete_oauth2_data for erpnext13.com
+2023-01-05 16:45:40,943 INFO scheduler Scheduled Job Complete: frappe.oauth.delete_oauth2_data for erpnext13.com
+2023-01-05 16:46:38,804 DEBUG scheduler Queued events for site erpnext13.com
+2023-01-05 16:47:39,045 DEBUG scheduler Queued events for site erpnext13.com
+2023-01-05 16:48:39,257 INFO scheduler Scheduled Job Start: payments.payment_gateways.doctype.razorpay_settings.razorpay_settings.capture_payment for erpnext13.com
+2023-01-05 16:48:39,370 DEBUG scheduler Queued events for site erpnext13.com
+2023-01-05 16:48:39,647 INFO scheduler Scheduled Job Complete: payments.payment_gateways.doctype.razorpay_settings.razorpay_settings.capture_payment for erpnext13.com
+2023-01-05 16:48:39,722 INFO scheduler Scheduled Job Start: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for erpnext13.com
+2023-01-05 16:48:39,999 INFO scheduler Scheduled Job Complete: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for erpnext13.com
+2023-01-05 16:48:40,074 INFO scheduler Scheduled Job Start: erpnext.hr.doctype.interview.interview.send_interview_reminder for erpnext13.com
+2023-01-05 16:48:40,305 INFO scheduler Scheduled Job Complete: erpnext.hr.doctype.interview.interview.send_interview_reminder for erpnext13.com
+2023-01-05 16:48:40,380 INFO scheduler Scheduled Job Start: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for erpnext13.com
+2023-01-05 16:48:40,669 INFO scheduler Scheduled Job Complete: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for erpnext13.com
+2023-01-05 16:48:40,753 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.project_status_update_reminder for erpnext13.com
+2023-01-05 16:48:41,060 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.project_status_update_reminder for erpnext13.com
+2023-01-05 16:48:41,135 INFO scheduler Scheduled Job Start: frappe.monitor.flush for erpnext13.com
+2023-01-05 16:48:41,369 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for erpnext13.com
+2023-01-05 16:48:41,471 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for erpnext13.com
+2023-01-05 16:48:41,677 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for erpnext13.com
+2023-01-05 16:48:41,753 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for erpnext13.com
+2023-01-05 16:48:42,003 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for erpnext13.com
+2023-01-05 16:48:42,079 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for erpnext13.com
+2023-01-05 16:48:42,408 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for erpnext13.com
+2023-01-05 16:48:42,484 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for erpnext13.com
+2023-01-05 16:48:42,702 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for erpnext13.com
+2023-01-05 16:49:39,631 DEBUG scheduler Queued events for site erpnext13.com
+2023-01-05 16:50:39,880 DEBUG scheduler Queued events for site erpnext13.com
+2023-01-05 16:50:39,890 INFO scheduler Scheduled Job Start: erpnext.manufacturing.doctype.bom_update_log.bom_update_log.resume_bom_cost_update_jobs for erpnext13.com
+2023-01-05 16:50:40,168 INFO scheduler Scheduled Job Complete: erpnext.manufacturing.doctype.bom_update_log.bom_update_log.resume_bom_cost_update_jobs for erpnext13.com
+2023-01-05 16:51:40,150 DEBUG scheduler Queued events for site erpnext13.com
+2023-01-05 16:52:40,352 INFO scheduler Scheduled Job Start: payments.payment_gateways.doctype.razorpay_settings.razorpay_settings.capture_payment for erpnext13.com
+2023-01-05 16:52:40,469 DEBUG scheduler Queued events for site erpnext13.com
+2023-01-05 16:52:40,745 INFO scheduler Scheduled Job Complete: payments.payment_gateways.doctype.razorpay_settings.razorpay_settings.capture_payment for erpnext13.com
+2023-01-05 16:52:40,820 INFO scheduler Scheduled Job Start: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for erpnext13.com
+2023-01-05 16:52:41,062 INFO scheduler Scheduled Job Complete: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for erpnext13.com
+2023-01-05 16:52:41,137 INFO scheduler Scheduled Job Start: erpnext.hr.doctype.interview.interview.send_interview_reminder for erpnext13.com
+2023-01-05 16:52:41,612 INFO scheduler Scheduled Job Complete: erpnext.hr.doctype.interview.interview.send_interview_reminder for erpnext13.com
+2023-01-05 16:52:41,688 INFO scheduler Scheduled Job Start: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for erpnext13.com
+2023-01-05 16:52:41,907 INFO scheduler Scheduled Job Complete: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for erpnext13.com
+2023-01-05 16:52:41,981 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.project_status_update_reminder for erpnext13.com
+2023-01-05 16:52:42,265 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.project_status_update_reminder for erpnext13.com
+2023-01-05 16:52:42,341 INFO scheduler Scheduled Job Start: frappe.monitor.flush for erpnext13.com
+2023-01-05 16:52:42,576 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for erpnext13.com
+2023-01-05 16:52:42,672 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for erpnext13.com
+2023-01-05 16:52:42,920 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for erpnext13.com
+2023-01-05 16:52:43,042 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for erpnext13.com
+2023-01-05 16:52:43,335 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for erpnext13.com
+2023-01-05 16:52:43,410 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for erpnext13.com
+2023-01-05 16:52:43,718 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for erpnext13.com
+2023-01-05 16:52:43,793 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for erpnext13.com
+2023-01-05 16:52:44,031 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for erpnext13.com
+2023-01-05 16:53:40,741 DEBUG scheduler Queued events for site erpnext13.com
+2023-01-05 16:54:40,977 DEBUG scheduler Queued events for site erpnext13.com
+2023-01-05 16:55:41,252 DEBUG scheduler Queued events for site erpnext13.com
+2023-01-05 16:55:41,258 INFO scheduler Scheduled Job Start: erpnext.manufacturing.doctype.bom_update_log.bom_update_log.resume_bom_cost_update_jobs for erpnext13.com
+2023-01-05 16:55:41,556 INFO scheduler Scheduled Job Complete: erpnext.manufacturing.doctype.bom_update_log.bom_update_log.resume_bom_cost_update_jobs for erpnext13.com
+2023-01-05 16:56:41,467 INFO scheduler Scheduled Job Start: payments.payment_gateways.doctype.razorpay_settings.razorpay_settings.capture_payment for erpnext13.com
+2023-01-05 16:56:41,624 DEBUG scheduler Queued events for site erpnext13.com
+2023-01-05 16:56:41,863 INFO scheduler Scheduled Job Complete: payments.payment_gateways.doctype.razorpay_settings.razorpay_settings.capture_payment for erpnext13.com
+2023-01-05 16:56:41,938 INFO scheduler Scheduled Job Start: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for erpnext13.com
+2023-01-05 16:56:42,192 INFO scheduler Scheduled Job Complete: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for erpnext13.com
+2023-01-05 16:56:42,268 INFO scheduler Scheduled Job Start: erpnext.hr.doctype.interview.interview.send_interview_reminder for erpnext13.com
+2023-01-05 16:56:42,495 INFO scheduler Scheduled Job Complete: erpnext.hr.doctype.interview.interview.send_interview_reminder for erpnext13.com
+2023-01-05 16:56:42,569 INFO scheduler Scheduled Job Start: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for erpnext13.com
+2023-01-05 16:56:42,770 INFO scheduler Scheduled Job Complete: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for erpnext13.com
+2023-01-05 16:56:42,845 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.project_status_update_reminder for erpnext13.com
+2023-01-05 16:56:43,130 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.project_status_update_reminder for erpnext13.com
+2023-01-05 16:56:43,205 INFO scheduler Scheduled Job Start: frappe.monitor.flush for erpnext13.com
+2023-01-05 16:56:43,447 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for erpnext13.com
+2023-01-05 16:56:43,564 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for erpnext13.com
+2023-01-05 16:56:43,835 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for erpnext13.com
+2023-01-05 16:56:43,951 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for erpnext13.com
+2023-01-05 16:56:44,198 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for erpnext13.com
+2023-01-05 16:56:44,274 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for erpnext13.com
+2023-01-05 16:56:44,618 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for erpnext13.com
+2023-01-05 16:56:44,698 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for erpnext13.com
+2023-01-05 16:56:44,949 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for erpnext13.com
+2023-01-05 16:57:41,884 DEBUG scheduler Queued events for site erpnext13.com
+2023-01-05 16:58:42,125 DEBUG scheduler Queued events for site erpnext13.com
+2023-01-05 16:59:42,360 DEBUG scheduler Queued events for site erpnext13.com
+2023-01-05 17:00:42,571 INFO scheduler Scheduled Job Start: payments.payment_gateways.doctype.razorpay_settings.razorpay_settings.capture_payment for erpnext13.com
+2023-01-05 17:00:42,889 DEBUG scheduler Queued events for site erpnext13.com
+2023-01-05 17:00:42,969 INFO scheduler Scheduled Job Complete: payments.payment_gateways.doctype.razorpay_settings.razorpay_settings.capture_payment for erpnext13.com
+2023-01-05 17:00:43,043 INFO scheduler Scheduled Job Start: erpnext.erpnext_integrations.connectors.shopify_connection.sync_old_orders for erpnext13.com
+2023-01-05 17:00:51,464 INFO scheduler Scheduled Job Complete: erpnext.erpnext_integrations.connectors.shopify_connection.sync_old_orders for erpnext13.com
+2023-01-05 17:00:51,736 INFO scheduler Scheduled Job Start: erpnext.support.doctype.issue.issue.set_service_level_agreement_variance for erpnext13.com
+2023-01-05 17:00:52,533 INFO scheduler Scheduled Job Complete: erpnext.support.doctype.issue.issue.set_service_level_agreement_variance for erpnext13.com
+2023-01-05 17:00:52,632 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.collect_project_status for erpnext13.com
+2023-01-05 17:00:53,026 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.collect_project_status for erpnext13.com
+2023-01-05 17:00:53,149 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.hourly_reminder for erpnext13.com
+2023-01-05 17:00:53,487 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.hourly_reminder for erpnext13.com
+2023-01-05 17:00:53,593 INFO scheduler Scheduled Job Start: erpnext.erpnext_integrations.doctype.plaid_settings.plaid_settings.automatic_synchronization for erpnext13.com
+2023-01-05 17:00:56,660 INFO scheduler Scheduled Job Complete: erpnext.erpnext_integrations.doctype.plaid_settings.plaid_settings.automatic_synchronization for erpnext13.com
+2023-01-05 17:00:56,826 INFO scheduler Scheduled Job Start: erpnext.erpnext_integrations.doctype.amazon_mws_settings.amazon_mws_settings.schedule_get_order_details for erpnext13.com
+2023-01-05 17:00:57,347 INFO scheduler Scheduled Job Complete: erpnext.erpnext_integrations.doctype.amazon_mws_settings.amazon_mws_settings.schedule_get_order_details for erpnext13.com
+2023-01-05 17:00:57,470 INFO scheduler Scheduled Job Start: erpnext.hr.doctype.daily_work_summary_group.daily_work_summary_group.trigger_emails for erpnext13.com
+2023-01-05 17:00:57,878 INFO scheduler Scheduled Job Complete: erpnext.hr.doctype.daily_work_summary_group.daily_work_summary_group.trigger_emails for erpnext13.com
+2023-01-05 17:00:58,016 INFO scheduler Scheduled Job Start: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for erpnext13.com
+2023-01-05 17:00:58,310 INFO scheduler Scheduled Job Complete: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for erpnext13.com
+2023-01-05 17:00:58,383 INFO scheduler Scheduled Job Start: erpnext.hr.doctype.interview.interview.send_interview_reminder for erpnext13.com
+2023-01-05 17:00:58,489 INFO scheduler Scheduled Job Start: erpnext.hr.doctype.shift_type.shift_type.process_auto_attendance_for_all_shifts for erpnext13.com
+2023-01-05 17:00:58,656 INFO scheduler Scheduled Job Complete: erpnext.hr.doctype.interview.interview.send_interview_reminder for erpnext13.com
+2023-01-05 17:00:58,729 INFO scheduler Scheduled Job Start: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for erpnext13.com
+2023-01-05 17:00:58,945 INFO scheduler Scheduled Job Complete: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for erpnext13.com
+2023-01-05 17:00:59,028 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.project_status_update_reminder for erpnext13.com
+2023-01-05 17:00:59,363 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.project_status_update_reminder for erpnext13.com
+2023-01-05 17:00:59,437 INFO scheduler Scheduled Job Start: erpnext.utilities.doctype.video.video.update_youtube_data for erpnext13.com
+2023-01-05 17:01:04,032 INFO scheduler Scheduled Job Complete: erpnext.utilities.doctype.video.video.update_youtube_data for erpnext13.com
+2023-01-05 17:01:04,175 INFO scheduler Scheduled Job Start: erpnext.manufacturing.doctype.bom_update_log.bom_update_log.resume_bom_cost_update_jobs for erpnext13.com
+2023-01-05 17:01:04,461 INFO scheduler Scheduled Job Complete: erpnext.manufacturing.doctype.bom_update_log.bom_update_log.resume_bom_cost_update_jobs for erpnext13.com
+2023-01-05 17:01:04,553 INFO scheduler Scheduled Job Start: frappe.email.doctype.newsletter.newsletter.send_scheduled_email for erpnext13.com
+2023-01-05 17:01:05,204 INFO scheduler Scheduled Job Complete: frappe.email.doctype.newsletter.newsletter.send_scheduled_email for erpnext13.com
+2023-01-05 17:01:05,322 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.google_calendar.google_calendar.sync for erpnext13.com
+2023-01-05 17:01:12,015 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.google_calendar.google_calendar.sync for erpnext13.com
+2023-01-05 17:01:12,103 INFO scheduler Scheduled Job Start: frappe.desk.form.document_follow.send_hourly_updates for erpnext13.com
+2023-01-05 17:01:12,473 INFO scheduler Scheduled Job Complete: frappe.desk.form.document_follow.send_hourly_updates for erpnext13.com
+2023-01-05 17:01:12,571 INFO scheduler Scheduled Job Complete: erpnext.hr.doctype.shift_type.shift_type.process_auto_attendance_for_all_shifts for erpnext13.com
+2023-01-05 17:01:12,581 INFO scheduler Scheduled Job Start: frappe.deferred_insert.save_to_db for erpnext13.com
+2023-01-05 17:01:12,686 INFO scheduler Scheduled Job Start: erpnext.stock.doctype.repost_item_valuation.repost_item_valuation.repost_entries for erpnext13.com
+2023-01-05 17:01:12,852 INFO scheduler Scheduled Job Complete: frappe.deferred_insert.save_to_db for erpnext13.com
+2023-01-05 17:01:12,957 INFO scheduler Scheduled Job Start: frappe.desk.page.backups.backups.delete_downloadable_backups for erpnext13.com
+2023-01-05 17:01:13,011 INFO scheduler Scheduled Job Complete: erpnext.stock.doctype.repost_item_valuation.repost_item_valuation.repost_entries for erpnext13.com
+2023-01-05 17:01:13,100 INFO scheduler Scheduled Job Start: erpnext.accounts.doctype.subscription.subscription.process_all for erpnext13.com
+2023-01-05 17:01:13,263 INFO scheduler Scheduled Job Complete: frappe.desk.page.backups.backups.delete_downloadable_backups for erpnext13.com
+2023-01-05 17:01:13,377 INFO scheduler Scheduled Job Start: frappe.utils.error.collect_error_snapshots for erpnext13.com
+2023-01-05 17:01:13,546 INFO scheduler Scheduled Job Complete: erpnext.accounts.doctype.subscription.subscription.process_all for erpnext13.com
+2023-01-05 17:01:14,433 INFO scheduler Scheduled Job Complete: frappe.utils.error.collect_error_snapshots for erpnext13.com
+2023-01-05 17:01:14,597 INFO scheduler Scheduled Job Start: frappe.model.utils.user_settings.sync_user_settings for erpnext13.com
+2023-01-05 17:01:14,869 INFO scheduler Scheduled Job Complete: frappe.model.utils.user_settings.sync_user_settings for erpnext13.com
+2023-01-05 17:01:14,989 INFO scheduler Scheduled Job Start: frappe.model.utils.link_count.update_link_count for erpnext13.com
+2023-01-05 17:01:15,329 INFO scheduler Scheduled Job Complete: frappe.model.utils.link_count.update_link_count for erpnext13.com
+2023-01-05 17:01:15,454 INFO scheduler Scheduled Job Start: frappe.monitor.flush for erpnext13.com
+2023-01-05 17:01:15,726 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for erpnext13.com
+2023-01-05 17:01:15,843 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for erpnext13.com
+2023-01-05 17:01:16,069 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for erpnext13.com
+2023-01-05 17:01:16,185 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for erpnext13.com
+2023-01-05 17:01:16,512 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for erpnext13.com
+2023-01-05 17:01:16,593 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for erpnext13.com
+2023-01-05 17:01:16,906 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for erpnext13.com
+2023-01-05 17:01:16,981 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for erpnext13.com
+2023-01-05 17:01:17,266 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for erpnext13.com
+2023-01-05 17:01:17,340 INFO scheduler Scheduled Job Start: frappe.twofactor.delete_all_barcodes_for_users for erpnext13.com
+2023-01-05 17:01:17,684 INFO scheduler Scheduled Job Complete: frappe.twofactor.delete_all_barcodes_for_users for erpnext13.com
+2023-01-05 17:01:17,770 INFO scheduler Scheduled Job Start: frappe.website.doctype.web_page.web_page.check_publish_status for erpnext13.com
+2023-01-05 17:01:18,143 INFO scheduler Scheduled Job Complete: frappe.website.doctype.web_page.web_page.check_publish_status for erpnext13.com
+2023-01-05 17:01:18,235 INFO scheduler Scheduled Job Start: frappe.oauth.delete_oauth2_data for erpnext13.com
+2023-01-05 17:01:18,525 INFO scheduler Scheduled Job Complete: frappe.oauth.delete_oauth2_data for erpnext13.com
+2023-01-05 17:01:43,149 DEBUG scheduler Queued events for site erpnext13.com
+2023-01-05 17:02:43,457 DEBUG scheduler Queued events for site erpnext13.com
+2023-01-05 17:03:43,725 DEBUG scheduler Queued events for site erpnext13.com
+2023-01-05 17:04:43,941 INFO scheduler Scheduled Job Start: payments.payment_gateways.doctype.razorpay_settings.razorpay_settings.capture_payment for erpnext13.com
+2023-01-05 17:04:44,046 DEBUG scheduler Queued events for site erpnext13.com
+2023-01-05 17:04:44,287 INFO scheduler Scheduled Job Complete: payments.payment_gateways.doctype.razorpay_settings.razorpay_settings.capture_payment for erpnext13.com
+2023-01-05 17:04:44,363 INFO scheduler Scheduled Job Start: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for erpnext13.com
+2023-01-05 17:04:44,634 INFO scheduler Scheduled Job Complete: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for erpnext13.com
+2023-01-05 17:04:44,758 INFO scheduler Scheduled Job Start: erpnext.hr.doctype.interview.interview.send_interview_reminder for erpnext13.com
+2023-01-05 17:04:44,989 INFO scheduler Scheduled Job Complete: erpnext.hr.doctype.interview.interview.send_interview_reminder for erpnext13.com
+2023-01-05 17:04:45,063 INFO scheduler Scheduled Job Start: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for erpnext13.com
+2023-01-05 17:04:45,261 INFO scheduler Scheduled Job Complete: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for erpnext13.com
+2023-01-05 17:04:45,337 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.project_status_update_reminder for erpnext13.com
+2023-01-05 17:04:45,643 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.project_status_update_reminder for erpnext13.com
+2023-01-05 17:04:45,718 INFO scheduler Scheduled Job Start: frappe.monitor.flush for erpnext13.com
+2023-01-05 17:04:45,915 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for erpnext13.com
+2023-01-05 17:04:45,991 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for erpnext13.com
+2023-01-05 17:04:46,181 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for erpnext13.com
+2023-01-05 17:04:46,256 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for erpnext13.com
+2023-01-05 17:04:46,507 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for erpnext13.com
+2023-01-05 17:04:46,582 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for erpnext13.com
+2023-01-05 17:04:46,921 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for erpnext13.com
+2023-01-05 17:04:46,996 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for erpnext13.com
+2023-01-05 17:04:47,202 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for erpnext13.com
+2023-01-05 17:05:44,314 DEBUG scheduler Queued events for site erpnext13.com
+2023-01-05 17:05:44,317 INFO scheduler Scheduled Job Start: erpnext.manufacturing.doctype.bom_update_log.bom_update_log.resume_bom_cost_update_jobs for erpnext13.com
+2023-01-05 17:05:44,581 INFO scheduler Scheduled Job Complete: erpnext.manufacturing.doctype.bom_update_log.bom_update_log.resume_bom_cost_update_jobs for erpnext13.com
+2023-01-05 17:06:44,584 DEBUG scheduler Queued events for site erpnext13.com
+2023-01-05 17:07:44,823 DEBUG scheduler Queued events for site erpnext13.com
+2023-01-05 17:08:45,008 INFO scheduler Scheduled Job Start: payments.payment_gateways.doctype.razorpay_settings.razorpay_settings.capture_payment for erpnext13.com
+2023-01-05 17:08:45,147 DEBUG scheduler Queued events for site erpnext13.com
+2023-01-05 17:08:45,397 INFO scheduler Scheduled Job Complete: payments.payment_gateways.doctype.razorpay_settings.razorpay_settings.capture_payment for erpnext13.com
+2023-01-05 17:08:45,473 INFO scheduler Scheduled Job Start: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for erpnext13.com
+2023-01-05 17:08:45,688 INFO scheduler Scheduled Job Complete: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for erpnext13.com
+2023-01-05 17:08:45,763 INFO scheduler Scheduled Job Start: erpnext.hr.doctype.interview.interview.send_interview_reminder for erpnext13.com
+2023-01-05 17:08:45,980 INFO scheduler Scheduled Job Complete: erpnext.hr.doctype.interview.interview.send_interview_reminder for erpnext13.com
+2023-01-05 17:08:46,055 INFO scheduler Scheduled Job Start: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for erpnext13.com
+2023-01-05 17:08:46,260 INFO scheduler Scheduled Job Complete: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for erpnext13.com
+2023-01-05 17:08:46,334 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.project_status_update_reminder for erpnext13.com
+2023-01-05 17:08:46,624 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.project_status_update_reminder for erpnext13.com
+2023-01-05 17:08:46,698 INFO scheduler Scheduled Job Start: frappe.monitor.flush for erpnext13.com
+2023-01-05 17:08:46,925 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for erpnext13.com
+2023-01-05 17:08:47,009 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for erpnext13.com
+2023-01-05 17:08:47,280 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for erpnext13.com
+2023-01-05 17:08:47,396 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for erpnext13.com
+2023-01-05 17:08:47,698 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for erpnext13.com
+2023-01-05 17:08:47,772 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for erpnext13.com
+2023-01-05 17:08:48,116 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for erpnext13.com
+2023-01-05 17:08:48,191 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for erpnext13.com
+2023-01-05 17:08:48,470 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for erpnext13.com
+2023-01-05 17:09:45,436 DEBUG scheduler Queued events for site erpnext13.com
+2023-01-05 17:10:45,706 DEBUG scheduler Queued events for site erpnext13.com
+2023-01-05 17:10:45,720 INFO scheduler Scheduled Job Start: erpnext.manufacturing.doctype.bom_update_log.bom_update_log.resume_bom_cost_update_jobs for erpnext13.com
+2023-01-05 17:10:46,010 INFO scheduler Scheduled Job Complete: erpnext.manufacturing.doctype.bom_update_log.bom_update_log.resume_bom_cost_update_jobs for erpnext13.com
+2023-01-05 17:11:45,979 DEBUG scheduler Queued events for site erpnext13.com
+2023-01-05 17:12:46,168 INFO scheduler Scheduled Job Start: payments.payment_gateways.doctype.razorpay_settings.razorpay_settings.capture_payment for erpnext13.com
+2023-01-05 17:12:46,276 DEBUG scheduler Queued events for site erpnext13.com
+2023-01-05 17:12:46,559 INFO scheduler Scheduled Job Complete: payments.payment_gateways.doctype.razorpay_settings.razorpay_settings.capture_payment for erpnext13.com
+2023-01-05 17:12:46,634 INFO scheduler Scheduled Job Start: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for erpnext13.com
+2023-01-05 17:12:46,890 INFO scheduler Scheduled Job Complete: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for erpnext13.com
+2023-01-05 17:12:46,964 INFO scheduler Scheduled Job Start: erpnext.hr.doctype.interview.interview.send_interview_reminder for erpnext13.com
+2023-01-05 17:12:47,191 INFO scheduler Scheduled Job Complete: erpnext.hr.doctype.interview.interview.send_interview_reminder for erpnext13.com
+2023-01-05 17:12:47,267 INFO scheduler Scheduled Job Start: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for erpnext13.com
+2023-01-05 17:12:47,567 INFO scheduler Scheduled Job Complete: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for erpnext13.com
+2023-01-05 17:12:47,646 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.project_status_update_reminder for erpnext13.com
+2023-01-05 17:12:47,950 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.project_status_update_reminder for erpnext13.com
+2023-01-05 17:12:48,026 INFO scheduler Scheduled Job Start: frappe.monitor.flush for erpnext13.com
+2023-01-05 17:12:48,223 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for erpnext13.com
+2023-01-05 17:12:48,300 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for erpnext13.com
+2023-01-05 17:12:48,489 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for erpnext13.com
+2023-01-05 17:12:48,565 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for erpnext13.com
+2023-01-05 17:12:48,808 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for erpnext13.com
+2023-01-05 17:12:48,883 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for erpnext13.com
+2023-01-05 17:12:49,203 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for erpnext13.com
+2023-01-05 17:12:49,279 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for erpnext13.com
+2023-01-05 17:12:49,540 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for erpnext13.com
+2023-01-05 17:13:46,614 DEBUG scheduler Queued events for site erpnext13.com
+2023-01-05 17:14:46,837 DEBUG scheduler Queued events for site erpnext13.com
+2023-01-05 17:15:47,137 INFO scheduler Scheduled Job Start: erpnext.manufacturing.doctype.bom_update_log.bom_update_log.resume_bom_cost_update_jobs for erpnext13.com
+2023-01-05 17:15:47,147 DEBUG scheduler Queued events for site erpnext13.com
+2023-01-05 17:15:47,455 INFO scheduler Scheduled Job Complete: erpnext.manufacturing.doctype.bom_update_log.bom_update_log.resume_bom_cost_update_jobs for erpnext13.com
+2023-01-05 17:15:47,544 INFO scheduler Scheduled Job Start: frappe.twofactor.delete_all_barcodes_for_users for erpnext13.com
+2023-01-05 17:15:47,970 INFO scheduler Scheduled Job Complete: frappe.twofactor.delete_all_barcodes_for_users for erpnext13.com
+2023-01-05 17:15:48,069 INFO scheduler Scheduled Job Start: frappe.website.doctype.web_page.web_page.check_publish_status for erpnext13.com
+2023-01-05 17:15:48,522 INFO scheduler Scheduled Job Complete: frappe.website.doctype.web_page.web_page.check_publish_status for erpnext13.com
+2023-01-05 17:15:48,607 INFO scheduler Scheduled Job Start: frappe.oauth.delete_oauth2_data for erpnext13.com
+2023-01-05 17:15:48,980 INFO scheduler Scheduled Job Complete: frappe.oauth.delete_oauth2_data for erpnext13.com
+2023-01-05 17:16:47,343 INFO scheduler Scheduled Job Start: payments.payment_gateways.doctype.razorpay_settings.razorpay_settings.capture_payment for erpnext13.com
+2023-01-05 17:16:47,519 DEBUG scheduler Queued events for site erpnext13.com
+2023-01-05 17:16:47,725 INFO scheduler Scheduled Job Complete: payments.payment_gateways.doctype.razorpay_settings.razorpay_settings.capture_payment for erpnext13.com
+2023-01-05 17:16:47,798 INFO scheduler Scheduled Job Start: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for erpnext13.com
+2023-01-05 17:16:48,068 INFO scheduler Scheduled Job Complete: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for erpnext13.com
+2023-01-05 17:16:48,144 INFO scheduler Scheduled Job Start: erpnext.hr.doctype.interview.interview.send_interview_reminder for erpnext13.com
+2023-01-05 17:16:48,427 INFO scheduler Scheduled Job Complete: erpnext.hr.doctype.interview.interview.send_interview_reminder for erpnext13.com
+2023-01-05 17:16:48,501 INFO scheduler Scheduled Job Start: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for erpnext13.com
+2023-01-05 17:16:48,706 INFO scheduler Scheduled Job Complete: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for erpnext13.com
+2023-01-05 17:16:48,780 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.project_status_update_reminder for erpnext13.com
+2023-01-05 17:16:49,065 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.project_status_update_reminder for erpnext13.com
+2023-01-05 17:16:49,140 INFO scheduler Scheduled Job Start: frappe.monitor.flush for erpnext13.com
+2023-01-05 17:16:49,503 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for erpnext13.com
+2023-01-05 17:16:49,621 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for erpnext13.com
+2023-01-05 17:16:49,814 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for erpnext13.com
+2023-01-05 17:16:49,893 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for erpnext13.com
+2023-01-05 17:16:50,140 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for erpnext13.com
+2023-01-05 17:16:50,215 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for erpnext13.com
+2023-01-05 17:16:50,541 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for erpnext13.com
+2023-01-05 17:16:50,618 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for erpnext13.com
+2023-01-05 17:16:50,859 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for erpnext13.com
+2023-01-05 17:17:47,773 DEBUG scheduler Queued events for site erpnext13.com
+2023-01-05 17:18:48,028 DEBUG scheduler Queued events for site erpnext13.com
+2023-01-05 17:19:48,280 DEBUG scheduler Queued events for site erpnext13.com
+2023-01-05 17:20:48,509 INFO scheduler Scheduled Job Start: payments.payment_gateways.doctype.razorpay_settings.razorpay_settings.capture_payment for erpnext13.com
+2023-01-05 17:20:48,600 DEBUG scheduler Queued events for site erpnext13.com
+2023-01-05 17:20:48,866 INFO scheduler Scheduled Job Complete: payments.payment_gateways.doctype.razorpay_settings.razorpay_settings.capture_payment for erpnext13.com
+2023-01-05 17:20:48,941 INFO scheduler Scheduled Job Start: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for erpnext13.com
+2023-01-05 17:20:49,212 INFO scheduler Scheduled Job Complete: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for erpnext13.com
+2023-01-05 17:20:49,286 INFO scheduler Scheduled Job Start: erpnext.hr.doctype.interview.interview.send_interview_reminder for erpnext13.com
+2023-01-05 17:20:49,554 INFO scheduler Scheduled Job Complete: erpnext.hr.doctype.interview.interview.send_interview_reminder for erpnext13.com
+2023-01-05 17:20:49,628 INFO scheduler Scheduled Job Start: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for erpnext13.com
+2023-01-05 17:20:49,862 INFO scheduler Scheduled Job Complete: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for erpnext13.com
+2023-01-05 17:20:49,951 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.project_status_update_reminder for erpnext13.com
+2023-01-05 17:20:50,310 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.project_status_update_reminder for erpnext13.com
+2023-01-05 17:20:50,384 INFO scheduler Scheduled Job Start: erpnext.manufacturing.doctype.bom_update_log.bom_update_log.resume_bom_cost_update_jobs for erpnext13.com
+2023-01-05 17:20:50,754 INFO scheduler Scheduled Job Complete: erpnext.manufacturing.doctype.bom_update_log.bom_update_log.resume_bom_cost_update_jobs for erpnext13.com
+2023-01-05 17:20:50,844 INFO scheduler Scheduled Job Start: frappe.monitor.flush for erpnext13.com
+2023-01-05 17:20:51,035 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for erpnext13.com
+2023-01-05 17:20:51,114 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for erpnext13.com
+2023-01-05 17:20:51,300 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for erpnext13.com
+2023-01-05 17:20:51,375 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for erpnext13.com
+2023-01-05 17:20:51,626 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for erpnext13.com
+2023-01-05 17:20:51,701 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for erpnext13.com
+2023-01-05 17:20:52,009 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for erpnext13.com
+2023-01-05 17:20:52,086 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for erpnext13.com
+2023-01-05 17:20:52,346 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for erpnext13.com
+2023-01-05 17:21:48,859 DEBUG scheduler Queued events for site erpnext13.com
+2023-01-05 17:22:49,124 DEBUG scheduler Queued events for site erpnext13.com
+2023-01-05 17:23:49,353 DEBUG scheduler Queued events for site erpnext13.com
+2023-01-05 17:24:49,564 INFO scheduler Scheduled Job Start: payments.payment_gateways.doctype.razorpay_settings.razorpay_settings.capture_payment for erpnext13.com
+2023-01-05 17:24:49,722 DEBUG scheduler Queued events for site erpnext13.com
+2023-01-05 17:24:50,006 INFO scheduler Scheduled Job Complete: payments.payment_gateways.doctype.razorpay_settings.razorpay_settings.capture_payment for erpnext13.com
+2023-01-05 17:24:50,081 INFO scheduler Scheduled Job Start: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for erpnext13.com
+2023-01-05 17:24:50,338 INFO scheduler Scheduled Job Complete: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for erpnext13.com
+2023-01-05 17:24:50,412 INFO scheduler Scheduled Job Start: erpnext.hr.doctype.interview.interview.send_interview_reminder for erpnext13.com
+2023-01-05 17:24:50,638 INFO scheduler Scheduled Job Complete: erpnext.hr.doctype.interview.interview.send_interview_reminder for erpnext13.com
+2023-01-05 17:24:50,714 INFO scheduler Scheduled Job Start: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for erpnext13.com
+2023-01-05 17:24:50,916 INFO scheduler Scheduled Job Complete: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for erpnext13.com
+2023-01-05 17:24:50,991 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.project_status_update_reminder for erpnext13.com
+2023-01-05 17:24:51,295 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.project_status_update_reminder for erpnext13.com
+2023-01-05 17:24:51,370 INFO scheduler Scheduled Job Start: frappe.monitor.flush for erpnext13.com
+2023-01-05 17:24:51,605 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for erpnext13.com
+2023-01-05 17:24:51,712 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for erpnext13.com
+2023-01-05 17:24:51,948 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for erpnext13.com
+2023-01-05 17:24:52,042 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for erpnext13.com
+2023-01-05 17:24:52,344 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for erpnext13.com
+2023-01-05 17:24:52,420 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for erpnext13.com
+2023-01-05 17:24:52,735 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for erpnext13.com
+2023-01-05 17:24:52,811 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for erpnext13.com
+2023-01-05 17:24:53,060 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for erpnext13.com
+2023-01-05 17:25:50,022 DEBUG scheduler Queued events for site erpnext13.com
+2023-01-05 17:25:50,023 INFO scheduler Scheduled Job Start: erpnext.manufacturing.doctype.bom_update_log.bom_update_log.resume_bom_cost_update_jobs for erpnext13.com
+2023-01-05 17:25:50,339 INFO scheduler Scheduled Job Complete: erpnext.manufacturing.doctype.bom_update_log.bom_update_log.resume_bom_cost_update_jobs for erpnext13.com
+2023-01-05 17:26:50,314 DEBUG scheduler Queued events for site erpnext13.com
+2023-01-05 17:27:50,550 DEBUG scheduler Queued events for site erpnext13.com
+2023-01-05 17:28:50,757 INFO scheduler Scheduled Job Start: payments.payment_gateways.doctype.razorpay_settings.razorpay_settings.capture_payment for erpnext13.com
+2023-01-05 17:28:50,879 DEBUG scheduler Queued events for site erpnext13.com
+2023-01-05 17:28:51,125 INFO scheduler Scheduled Job Complete: payments.payment_gateways.doctype.razorpay_settings.razorpay_settings.capture_payment for erpnext13.com
+2023-01-05 17:28:51,200 INFO scheduler Scheduled Job Start: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for erpnext13.com
+2023-01-05 17:28:51,474 INFO scheduler Scheduled Job Complete: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for erpnext13.com
+2023-01-05 17:28:51,549 INFO scheduler Scheduled Job Start: erpnext.hr.doctype.interview.interview.send_interview_reminder for erpnext13.com
+2023-01-05 17:28:51,770 INFO scheduler Scheduled Job Complete: erpnext.hr.doctype.interview.interview.send_interview_reminder for erpnext13.com
+2023-01-05 17:28:51,844 INFO scheduler Scheduled Job Start: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for erpnext13.com
+2023-01-05 17:28:52,050 INFO scheduler Scheduled Job Complete: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for erpnext13.com
+2023-01-05 17:28:52,125 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.project_status_update_reminder for erpnext13.com
+2023-01-05 17:28:52,418 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.project_status_update_reminder for erpnext13.com
+2023-01-05 17:28:52,493 INFO scheduler Scheduled Job Start: frappe.monitor.flush for erpnext13.com
+2023-01-05 17:28:52,688 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for erpnext13.com
+2023-01-05 17:28:52,770 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for erpnext13.com
+2023-01-05 17:28:52,965 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for erpnext13.com
+2023-01-05 17:28:53,044 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for erpnext13.com
+2023-01-05 17:28:53,300 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for erpnext13.com
+2023-01-05 17:28:53,376 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for erpnext13.com
+2023-01-05 17:28:53,705 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for erpnext13.com
+2023-01-05 17:28:53,779 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for erpnext13.com
+2023-01-05 17:28:54,039 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for erpnext13.com
+2023-01-05 17:29:51,141 DEBUG scheduler Queued events for site erpnext13.com
+2023-01-05 17:30:51,410 INFO scheduler Scheduled Job Start: erpnext.accounts.doctype.gl_entry.gl_entry.rename_gle_sle_docs for erpnext13.com
+2023-01-05 17:30:51,425 DEBUG scheduler Queued events for site erpnext13.com
+2023-01-05 17:30:51,814 INFO scheduler Scheduled Job Complete: erpnext.accounts.doctype.gl_entry.gl_entry.rename_gle_sle_docs for erpnext13.com
+2023-01-05 17:30:51,924 INFO scheduler Scheduled Job Start: erpnext.utilities.doctype.video.video.update_youtube_data for erpnext13.com
+2023-01-05 17:30:52,338 INFO scheduler Scheduled Job Complete: erpnext.utilities.doctype.video.video.update_youtube_data for erpnext13.com
+2023-01-05 17:30:52,426 INFO scheduler Scheduled Job Start: erpnext.manufacturing.doctype.bom_update_log.bom_update_log.resume_bom_cost_update_jobs for erpnext13.com
+2023-01-05 17:30:52,785 INFO scheduler Scheduled Job Complete: erpnext.manufacturing.doctype.bom_update_log.bom_update_log.resume_bom_cost_update_jobs for erpnext13.com
+2023-01-05 17:30:52,876 INFO scheduler Scheduled Job Start: frappe.twofactor.delete_all_barcodes_for_users for erpnext13.com
+2023-01-05 17:30:53,258 INFO scheduler Scheduled Job Complete: frappe.twofactor.delete_all_barcodes_for_users for erpnext13.com
+2023-01-05 17:30:53,352 INFO scheduler Scheduled Job Start: frappe.website.doctype.web_page.web_page.check_publish_status for erpnext13.com
+2023-01-05 17:30:53,748 INFO scheduler Scheduled Job Complete: frappe.website.doctype.web_page.web_page.check_publish_status for erpnext13.com
+2023-01-05 17:30:53,843 INFO scheduler Scheduled Job Start: frappe.oauth.delete_oauth2_data for erpnext13.com
+2023-01-05 17:30:54,211 INFO scheduler Scheduled Job Complete: frappe.oauth.delete_oauth2_data for erpnext13.com
+2023-01-05 17:31:51,691 DEBUG scheduler Queued events for site erpnext13.com
+2023-01-05 17:32:51,890 INFO scheduler Scheduled Job Start: payments.payment_gateways.doctype.razorpay_settings.razorpay_settings.capture_payment for erpnext13.com
+2023-01-05 17:32:52,031 DEBUG scheduler Queued events for site erpnext13.com
+2023-01-05 17:32:52,249 INFO scheduler Scheduled Job Complete: payments.payment_gateways.doctype.razorpay_settings.razorpay_settings.capture_payment for erpnext13.com
+2023-01-05 17:32:52,323 INFO scheduler Scheduled Job Start: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for erpnext13.com
+2023-01-05 17:32:52,597 INFO scheduler Scheduled Job Complete: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for erpnext13.com
+2023-01-05 17:32:52,671 INFO scheduler Scheduled Job Start: erpnext.hr.doctype.interview.interview.send_interview_reminder for erpnext13.com
+2023-01-05 17:32:52,932 INFO scheduler Scheduled Job Complete: erpnext.hr.doctype.interview.interview.send_interview_reminder for erpnext13.com
+2023-01-05 17:32:53,006 INFO scheduler Scheduled Job Start: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for erpnext13.com
+2023-01-05 17:32:53,201 INFO scheduler Scheduled Job Complete: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for erpnext13.com
+2023-01-05 17:32:53,274 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.project_status_update_reminder for erpnext13.com
+2023-01-05 17:32:53,560 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.project_status_update_reminder for erpnext13.com
+2023-01-05 17:32:53,636 INFO scheduler Scheduled Job Start: frappe.monitor.flush for erpnext13.com
+2023-01-05 17:32:53,822 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for erpnext13.com
+2023-01-05 17:32:53,902 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for erpnext13.com
+2023-01-05 17:32:54,110 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for erpnext13.com
+2023-01-05 17:32:54,187 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for erpnext13.com
+2023-01-05 17:32:54,460 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for erpnext13.com
+2023-01-05 17:32:54,534 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for erpnext13.com
+2023-01-05 17:32:54,873 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for erpnext13.com
+2023-01-05 17:32:54,951 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for erpnext13.com
+2023-01-05 17:32:55,248 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for erpnext13.com
+2023-01-05 17:33:52,285 DEBUG scheduler Queued events for site erpnext13.com
+2023-01-05 17:34:52,550 DEBUG scheduler Queued events for site erpnext13.com
+2023-01-05 17:35:52,805 DEBUG scheduler Queued events for site erpnext13.com
+2023-01-05 17:35:52,818 INFO scheduler Scheduled Job Start: erpnext.manufacturing.doctype.bom_update_log.bom_update_log.resume_bom_cost_update_jobs for erpnext13.com
+2023-01-05 17:35:53,123 INFO scheduler Scheduled Job Complete: erpnext.manufacturing.doctype.bom_update_log.bom_update_log.resume_bom_cost_update_jobs for erpnext13.com
+2023-01-05 17:36:53,027 INFO scheduler Scheduled Job Start: payments.payment_gateways.doctype.razorpay_settings.razorpay_settings.capture_payment for erpnext13.com
+2023-01-05 17:36:53,155 DEBUG scheduler Queued events for site erpnext13.com
+2023-01-05 17:36:53,430 INFO scheduler Scheduled Job Complete: payments.payment_gateways.doctype.razorpay_settings.razorpay_settings.capture_payment for erpnext13.com
+2023-01-05 17:36:53,512 INFO scheduler Scheduled Job Start: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for erpnext13.com
+2023-01-05 17:36:53,786 INFO scheduler Scheduled Job Complete: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for erpnext13.com
+2023-01-05 17:36:53,861 INFO scheduler Scheduled Job Start: erpnext.hr.doctype.interview.interview.send_interview_reminder for erpnext13.com
+2023-01-05 17:36:54,149 INFO scheduler Scheduled Job Complete: erpnext.hr.doctype.interview.interview.send_interview_reminder for erpnext13.com
+2023-01-05 17:36:54,224 INFO scheduler Scheduled Job Start: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for erpnext13.com
+2023-01-05 17:36:54,484 INFO scheduler Scheduled Job Complete: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for erpnext13.com
+2023-01-05 17:36:54,558 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.project_status_update_reminder for erpnext13.com
+2023-01-05 17:36:54,847 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.project_status_update_reminder for erpnext13.com
+2023-01-05 17:36:54,922 INFO scheduler Scheduled Job Start: frappe.monitor.flush for erpnext13.com
+2023-01-05 17:36:55,143 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for erpnext13.com
+2023-01-05 17:36:55,229 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for erpnext13.com
+2023-01-05 17:36:55,420 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for erpnext13.com
+2023-01-05 17:36:55,495 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for erpnext13.com
+2023-01-05 17:36:55,740 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for erpnext13.com
+2023-01-05 17:36:55,814 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for erpnext13.com
+2023-01-05 17:36:56,095 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for erpnext13.com
+2023-01-05 17:36:56,170 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for erpnext13.com
+2023-01-05 17:36:56,444 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for erpnext13.com
+2023-01-05 17:37:53,437 DEBUG scheduler Queued events for site erpnext13.com
+2023-01-05 17:38:53,670 DEBUG scheduler Queued events for site erpnext13.com
+2023-01-05 17:39:53,911 DEBUG scheduler Queued events for site erpnext13.com
+2023-01-05 17:40:54,127 INFO scheduler Scheduled Job Start: payments.payment_gateways.doctype.razorpay_settings.razorpay_settings.capture_payment for erpnext13.com
+2023-01-05 17:40:54,243 DEBUG scheduler Queued events for site erpnext13.com
+2023-01-05 17:40:54,488 INFO scheduler Scheduled Job Complete: payments.payment_gateways.doctype.razorpay_settings.razorpay_settings.capture_payment for erpnext13.com
+2023-01-05 17:40:54,563 INFO scheduler Scheduled Job Start: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for erpnext13.com
+2023-01-05 17:40:54,853 INFO scheduler Scheduled Job Complete: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for erpnext13.com
+2023-01-05 17:40:54,928 INFO scheduler Scheduled Job Start: erpnext.hr.doctype.interview.interview.send_interview_reminder for erpnext13.com
+2023-01-05 17:40:55,183 INFO scheduler Scheduled Job Complete: erpnext.hr.doctype.interview.interview.send_interview_reminder for erpnext13.com
+2023-01-05 17:40:55,257 INFO scheduler Scheduled Job Start: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for erpnext13.com
+2023-01-05 17:40:55,465 INFO scheduler Scheduled Job Complete: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for erpnext13.com
+2023-01-05 17:40:55,539 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.project_status_update_reminder for erpnext13.com
+2023-01-05 17:40:55,827 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.project_status_update_reminder for erpnext13.com
+2023-01-05 17:40:55,902 INFO scheduler Scheduled Job Start: erpnext.manufacturing.doctype.bom_update_log.bom_update_log.resume_bom_cost_update_jobs for erpnext13.com
+2023-01-05 17:40:56,225 INFO scheduler Scheduled Job Complete: erpnext.manufacturing.doctype.bom_update_log.bom_update_log.resume_bom_cost_update_jobs for erpnext13.com
+2023-01-05 17:40:56,415 INFO scheduler Scheduled Job Start: frappe.monitor.flush for erpnext13.com
+2023-01-05 17:40:56,606 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for erpnext13.com
+2023-01-05 17:40:56,683 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for erpnext13.com
+2023-01-05 17:40:56,871 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for erpnext13.com
+2023-01-05 17:40:56,945 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for erpnext13.com
+2023-01-05 17:40:57,219 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for erpnext13.com
+2023-01-05 17:40:57,296 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for erpnext13.com
+2023-01-05 17:40:57,573 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for erpnext13.com
+2023-01-05 17:40:57,648 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for erpnext13.com
+2023-01-05 17:40:57,894 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for erpnext13.com
+2023-01-05 17:41:54,596 DEBUG scheduler Queued events for site erpnext13.com
+2023-01-05 17:42:54,831 DEBUG scheduler Queued events for site erpnext13.com
+2023-01-05 17:43:55,072 DEBUG scheduler Queued events for site erpnext13.com
+2023-01-05 17:44:55,293 INFO scheduler Scheduled Job Start: payments.payment_gateways.doctype.razorpay_settings.razorpay_settings.capture_payment for erpnext13.com
+2023-01-05 17:44:55,440 DEBUG scheduler Queued events for site erpnext13.com
+2023-01-05 17:44:55,710 INFO scheduler Scheduled Job Complete: payments.payment_gateways.doctype.razorpay_settings.razorpay_settings.capture_payment for erpnext13.com
+2023-01-05 17:44:55,789 INFO scheduler Scheduled Job Start: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for erpnext13.com
+2023-01-05 17:44:56,097 INFO scheduler Scheduled Job Complete: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for erpnext13.com
+2023-01-05 17:44:56,221 INFO scheduler Scheduled Job Start: erpnext.hr.doctype.interview.interview.send_interview_reminder for erpnext13.com
+2023-01-05 17:44:56,525 INFO scheduler Scheduled Job Complete: erpnext.hr.doctype.interview.interview.send_interview_reminder for erpnext13.com
+2023-01-05 17:44:56,618 INFO scheduler Scheduled Job Start: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for erpnext13.com
+2023-01-05 17:44:56,856 INFO scheduler Scheduled Job Complete: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for erpnext13.com
+2023-01-05 17:44:56,931 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.project_status_update_reminder for erpnext13.com
+2023-01-05 17:44:57,221 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.project_status_update_reminder for erpnext13.com
+2023-01-05 17:44:57,296 INFO scheduler Scheduled Job Start: frappe.monitor.flush for erpnext13.com
+2023-01-05 17:44:57,493 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for erpnext13.com
+2023-01-05 17:44:57,573 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for erpnext13.com
+2023-01-05 17:44:57,770 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for erpnext13.com
+2023-01-05 17:44:57,876 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for erpnext13.com
+2023-01-05 17:44:58,226 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for erpnext13.com
+2023-01-05 17:44:58,301 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for erpnext13.com
+2023-01-05 17:44:58,694 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for erpnext13.com
+2023-01-05 17:44:58,769 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for erpnext13.com
+2023-01-05 17:44:58,997 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for erpnext13.com
+2023-01-05 17:45:55,720 INFO scheduler Scheduled Job Start: erpnext.manufacturing.doctype.bom_update_log.bom_update_log.resume_bom_cost_update_jobs for erpnext13.com
+2023-01-05 17:45:55,732 DEBUG scheduler Queued events for site erpnext13.com
+2023-01-05 17:45:56,006 INFO scheduler Scheduled Job Complete: erpnext.manufacturing.doctype.bom_update_log.bom_update_log.resume_bom_cost_update_jobs for erpnext13.com
+2023-01-05 17:45:56,125 INFO scheduler Scheduled Job Start: frappe.twofactor.delete_all_barcodes_for_users for erpnext13.com
+2023-01-05 17:45:56,453 INFO scheduler Scheduled Job Complete: frappe.twofactor.delete_all_barcodes_for_users for erpnext13.com
+2023-01-05 17:45:56,538 INFO scheduler Scheduled Job Start: frappe.website.doctype.web_page.web_page.check_publish_status for erpnext13.com
+2023-01-05 17:45:56,938 INFO scheduler Scheduled Job Complete: frappe.website.doctype.web_page.web_page.check_publish_status for erpnext13.com
+2023-01-05 17:45:57,027 INFO scheduler Scheduled Job Start: frappe.oauth.delete_oauth2_data for erpnext13.com
+2023-01-05 17:45:57,398 INFO scheduler Scheduled Job Complete: frappe.oauth.delete_oauth2_data for erpnext13.com
+2023-01-05 17:46:56,005 DEBUG scheduler Queued events for site erpnext13.com
+2023-01-05 17:47:56,237 DEBUG scheduler Queued events for site erpnext13.com
+2023-01-05 17:48:56,446 INFO scheduler Scheduled Job Start: payments.payment_gateways.doctype.razorpay_settings.razorpay_settings.capture_payment for erpnext13.com
+2023-01-05 17:48:56,566 DEBUG scheduler Queued events for site erpnext13.com
+2023-01-05 17:48:56,870 INFO scheduler Scheduled Job Complete: payments.payment_gateways.doctype.razorpay_settings.razorpay_settings.capture_payment for erpnext13.com
+2023-01-05 17:48:56,945 INFO scheduler Scheduled Job Start: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for erpnext13.com
+2023-01-05 17:48:57,225 INFO scheduler Scheduled Job Complete: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for erpnext13.com
+2023-01-05 17:48:57,304 INFO scheduler Scheduled Job Start: erpnext.hr.doctype.interview.interview.send_interview_reminder for erpnext13.com
+2023-01-05 17:48:57,535 INFO scheduler Scheduled Job Complete: erpnext.hr.doctype.interview.interview.send_interview_reminder for erpnext13.com
+2023-01-05 17:48:57,610 INFO scheduler Scheduled Job Start: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for erpnext13.com
+2023-01-05 17:48:57,820 INFO scheduler Scheduled Job Complete: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for erpnext13.com
+2023-01-05 17:48:57,894 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.project_status_update_reminder for erpnext13.com
+2023-01-05 17:48:58,172 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.project_status_update_reminder for erpnext13.com
+2023-01-05 17:48:58,248 INFO scheduler Scheduled Job Start: frappe.monitor.flush for erpnext13.com
+2023-01-05 17:48:58,469 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for erpnext13.com
+2023-01-05 17:48:58,564 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for erpnext13.com
+2023-01-05 17:48:58,756 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for erpnext13.com
+2023-01-05 17:48:58,830 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for erpnext13.com
+2023-01-05 17:48:59,083 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for erpnext13.com
+2023-01-05 17:48:59,158 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for erpnext13.com
+2023-01-05 17:48:59,508 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for erpnext13.com
+2023-01-05 17:48:59,584 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for erpnext13.com
+2023-01-05 17:48:59,796 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for erpnext13.com
+2023-01-05 17:49:56,864 DEBUG scheduler Queued events for site erpnext13.com
+2023-01-05 17:50:57,102 DEBUG scheduler Queued events for site erpnext13.com
+2023-01-05 17:50:57,124 INFO scheduler Scheduled Job Start: erpnext.manufacturing.doctype.bom_update_log.bom_update_log.resume_bom_cost_update_jobs for erpnext13.com
+2023-01-05 17:50:57,385 INFO scheduler Scheduled Job Complete: erpnext.manufacturing.doctype.bom_update_log.bom_update_log.resume_bom_cost_update_jobs for erpnext13.com
+2023-01-05 17:51:57,411 DEBUG scheduler Queued events for site erpnext13.com
+2023-01-05 17:52:57,608 INFO scheduler Scheduled Job Start: payments.payment_gateways.doctype.razorpay_settings.razorpay_settings.capture_payment for erpnext13.com
+2023-01-05 17:52:57,854 DEBUG scheduler Queued events for site erpnext13.com
+2023-01-05 17:52:58,075 INFO scheduler Scheduled Job Complete: payments.payment_gateways.doctype.razorpay_settings.razorpay_settings.capture_payment for erpnext13.com
+2023-01-05 17:52:58,151 INFO scheduler Scheduled Job Start: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for erpnext13.com
+2023-01-05 17:52:58,524 INFO scheduler Scheduled Job Complete: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for erpnext13.com
+2023-01-05 17:52:58,598 INFO scheduler Scheduled Job Start: erpnext.hr.doctype.interview.interview.send_interview_reminder for erpnext13.com
+2023-01-05 17:52:58,877 INFO scheduler Scheduled Job Complete: erpnext.hr.doctype.interview.interview.send_interview_reminder for erpnext13.com
+2023-01-05 17:52:58,951 INFO scheduler Scheduled Job Start: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for erpnext13.com
+2023-01-05 17:52:59,209 INFO scheduler Scheduled Job Complete: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for erpnext13.com
+2023-01-05 17:52:59,289 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.project_status_update_reminder for erpnext13.com
+2023-01-05 17:52:59,636 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.project_status_update_reminder for erpnext13.com
+2023-01-05 17:52:59,713 INFO scheduler Scheduled Job Start: frappe.monitor.flush for erpnext13.com
+2023-01-05 17:52:59,908 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for erpnext13.com
+2023-01-05 17:52:59,982 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for erpnext13.com
+2023-01-05 17:53:00,174 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for erpnext13.com
+2023-01-05 17:53:00,258 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for erpnext13.com
+2023-01-05 17:53:00,505 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for erpnext13.com
+2023-01-05 17:53:00,580 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for erpnext13.com
+2023-01-05 17:53:00,915 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for erpnext13.com
+2023-01-05 17:53:00,993 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for erpnext13.com
+2023-01-05 17:53:01,230 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for erpnext13.com
+2023-01-05 17:53:58,135 DEBUG scheduler Queued events for site erpnext13.com
+2023-01-05 17:54:58,401 DEBUG scheduler Queued events for site erpnext13.com
+2023-01-05 17:55:58,672 DEBUG scheduler Queued events for site erpnext13.com
+2023-01-05 17:55:58,680 INFO scheduler Scheduled Job Start: erpnext.manufacturing.doctype.bom_update_log.bom_update_log.resume_bom_cost_update_jobs for erpnext13.com
+2023-01-05 17:55:59,007 INFO scheduler Scheduled Job Complete: erpnext.manufacturing.doctype.bom_update_log.bom_update_log.resume_bom_cost_update_jobs for erpnext13.com
+2023-01-05 17:56:58,874 INFO scheduler Scheduled Job Start: payments.payment_gateways.doctype.razorpay_settings.razorpay_settings.capture_payment for erpnext13.com
+2023-01-05 17:56:59,021 DEBUG scheduler Queued events for site erpnext13.com
+2023-01-05 17:56:59,278 INFO scheduler Scheduled Job Complete: payments.payment_gateways.doctype.razorpay_settings.razorpay_settings.capture_payment for erpnext13.com
+2023-01-05 17:56:59,355 INFO scheduler Scheduled Job Start: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for erpnext13.com
+2023-01-05 17:56:59,627 INFO scheduler Scheduled Job Complete: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for erpnext13.com
+2023-01-05 17:56:59,701 INFO scheduler Scheduled Job Start: erpnext.hr.doctype.interview.interview.send_interview_reminder for erpnext13.com
+2023-01-05 17:56:59,962 INFO scheduler Scheduled Job Complete: erpnext.hr.doctype.interview.interview.send_interview_reminder for erpnext13.com
+2023-01-05 17:57:00,038 INFO scheduler Scheduled Job Start: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for erpnext13.com
+2023-01-05 17:57:00,277 INFO scheduler Scheduled Job Complete: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for erpnext13.com
+2023-01-05 17:57:00,356 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.project_status_update_reminder for erpnext13.com
+2023-01-05 17:57:00,727 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.project_status_update_reminder for erpnext13.com
+2023-01-05 17:57:00,803 INFO scheduler Scheduled Job Start: frappe.monitor.flush for erpnext13.com
+2023-01-05 17:57:01,149 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for erpnext13.com
+2023-01-05 17:57:01,241 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for erpnext13.com
+2023-01-05 17:57:01,448 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for erpnext13.com
+2023-01-05 17:57:01,522 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for erpnext13.com
+2023-01-05 17:57:01,805 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for erpnext13.com
+2023-01-05 17:57:01,880 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for erpnext13.com
+2023-01-05 17:57:02,175 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for erpnext13.com
+2023-01-05 17:57:02,253 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for erpnext13.com
+2023-01-05 17:57:02,458 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for erpnext13.com
+2023-01-05 17:57:59,290 DEBUG scheduler Queued events for site erpnext13.com
+2023-01-05 17:58:59,552 DEBUG scheduler Queued events for site erpnext13.com
+2023-01-05 17:59:59,783 DEBUG scheduler Queued events for site erpnext13.com
+2023-01-05 18:00:59,998 INFO scheduler Scheduled Job Start: payments.payment_gateways.doctype.razorpay_settings.razorpay_settings.capture_payment for erpnext13.com
+2023-01-05 18:01:00,016 INFO scheduler Scheduled Job Start: erpnext.hr.doctype.shift_type.shift_type.process_auto_attendance_for_all_shifts for erpnext13.com
+2023-01-05 18:01:00,415 INFO scheduler Scheduled Job Complete: erpnext.hr.doctype.shift_type.shift_type.process_auto_attendance_for_all_shifts for erpnext13.com
+2023-01-05 18:01:00,439 DEBUG scheduler Queued events for site erpnext13.com
+2023-01-05 18:01:00,541 INFO scheduler Scheduled Job Complete: payments.payment_gateways.doctype.razorpay_settings.razorpay_settings.capture_payment for erpnext13.com
+2023-01-05 18:01:00,550 INFO scheduler Scheduled Job Start: erpnext.stock.doctype.repost_item_valuation.repost_item_valuation.repost_entries for erpnext13.com
+2023-01-05 18:01:00,653 INFO scheduler Scheduled Job Start: erpnext.erpnext_integrations.connectors.shopify_connection.sync_old_orders for erpnext13.com
+2023-01-05 18:01:00,996 INFO scheduler Scheduled Job Complete: erpnext.stock.doctype.repost_item_valuation.repost_item_valuation.repost_entries for erpnext13.com
+2023-01-05 18:01:01,142 INFO scheduler Scheduled Job Start: erpnext.accounts.doctype.subscription.subscription.process_all for erpnext13.com
+2023-01-05 18:01:01,249 INFO scheduler Scheduled Job Complete: erpnext.erpnext_integrations.connectors.shopify_connection.sync_old_orders for erpnext13.com
+2023-01-05 18:01:01,395 INFO scheduler Scheduled Job Start: erpnext.support.doctype.issue.issue.set_service_level_agreement_variance for erpnext13.com
+2023-01-05 18:01:01,453 INFO scheduler Scheduled Job Complete: erpnext.accounts.doctype.subscription.subscription.process_all for erpnext13.com
+2023-01-05 18:01:01,668 INFO scheduler Scheduled Job Complete: erpnext.support.doctype.issue.issue.set_service_level_agreement_variance for erpnext13.com
+2023-01-05 18:01:01,772 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.collect_project_status for erpnext13.com
+2023-01-05 18:01:02,092 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.collect_project_status for erpnext13.com
+2023-01-05 18:01:02,181 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.hourly_reminder for erpnext13.com
+2023-01-05 18:01:02,592 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.hourly_reminder for erpnext13.com
+2023-01-05 18:01:02,696 INFO scheduler Scheduled Job Start: erpnext.erpnext_integrations.doctype.plaid_settings.plaid_settings.automatic_synchronization for erpnext13.com
+2023-01-05 18:01:03,119 INFO scheduler Scheduled Job Complete: erpnext.erpnext_integrations.doctype.plaid_settings.plaid_settings.automatic_synchronization for erpnext13.com
+2023-01-05 18:01:03,207 INFO scheduler Scheduled Job Start: erpnext.erpnext_integrations.doctype.amazon_mws_settings.amazon_mws_settings.schedule_get_order_details for erpnext13.com
+2023-01-05 18:01:03,546 INFO scheduler Scheduled Job Complete: erpnext.erpnext_integrations.doctype.amazon_mws_settings.amazon_mws_settings.schedule_get_order_details for erpnext13.com
+2023-01-05 18:01:03,684 INFO scheduler Scheduled Job Start: erpnext.hr.doctype.daily_work_summary_group.daily_work_summary_group.trigger_emails for erpnext13.com
+2023-01-05 18:01:03,962 INFO scheduler Scheduled Job Complete: erpnext.hr.doctype.daily_work_summary_group.daily_work_summary_group.trigger_emails for erpnext13.com
+2023-01-05 18:01:04,071 INFO scheduler Scheduled Job Start: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for erpnext13.com
+2023-01-05 18:01:04,300 INFO scheduler Scheduled Job Complete: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for erpnext13.com
+2023-01-05 18:01:04,375 INFO scheduler Scheduled Job Start: erpnext.hr.doctype.interview.interview.send_interview_reminder for erpnext13.com
+2023-01-05 18:01:04,595 INFO scheduler Scheduled Job Complete: erpnext.hr.doctype.interview.interview.send_interview_reminder for erpnext13.com
+2023-01-05 18:01:04,669 INFO scheduler Scheduled Job Start: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for erpnext13.com
+2023-01-05 18:01:04,956 INFO scheduler Scheduled Job Complete: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for erpnext13.com
+2023-01-05 18:01:05,044 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.project_status_update_reminder for erpnext13.com
+2023-01-05 18:01:05,385 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.project_status_update_reminder for erpnext13.com
+2023-01-05 18:01:05,471 INFO scheduler Scheduled Job Start: erpnext.utilities.doctype.video.video.update_youtube_data for erpnext13.com
+2023-01-05 18:01:05,819 INFO scheduler Scheduled Job Complete: erpnext.utilities.doctype.video.video.update_youtube_data for erpnext13.com
+2023-01-05 18:01:05,907 INFO scheduler Scheduled Job Start: erpnext.manufacturing.doctype.bom_update_log.bom_update_log.resume_bom_cost_update_jobs for erpnext13.com
+2023-01-05 18:01:06,187 INFO scheduler Scheduled Job Complete: erpnext.manufacturing.doctype.bom_update_log.bom_update_log.resume_bom_cost_update_jobs for erpnext13.com
+2023-01-05 18:01:06,275 INFO scheduler Scheduled Job Start: frappe.email.doctype.newsletter.newsletter.send_scheduled_email for erpnext13.com
+2023-01-05 18:01:06,625 INFO scheduler Scheduled Job Complete: frappe.email.doctype.newsletter.newsletter.send_scheduled_email for erpnext13.com
+2023-01-05 18:01:06,716 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.google_calendar.google_calendar.sync for erpnext13.com
+2023-01-05 18:01:07,245 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.google_calendar.google_calendar.sync for erpnext13.com
+2023-01-05 18:01:07,376 INFO scheduler Scheduled Job Start: frappe.desk.form.document_follow.send_hourly_updates for erpnext13.com
+2023-01-05 18:01:08,173 INFO scheduler Scheduled Job Complete: frappe.desk.form.document_follow.send_hourly_updates for erpnext13.com
+2023-01-05 18:01:08,267 INFO scheduler Scheduled Job Start: frappe.deferred_insert.save_to_db for erpnext13.com
+2023-01-05 18:01:08,551 INFO scheduler Scheduled Job Complete: frappe.deferred_insert.save_to_db for erpnext13.com
+2023-01-05 18:01:08,741 INFO scheduler Scheduled Job Start: frappe.desk.page.backups.backups.delete_downloadable_backups for erpnext13.com
+2023-01-05 18:01:09,087 INFO scheduler Scheduled Job Complete: frappe.desk.page.backups.backups.delete_downloadable_backups for erpnext13.com
+2023-01-05 18:01:09,348 INFO scheduler Scheduled Job Start: frappe.utils.error.collect_error_snapshots for erpnext13.com
+2023-01-05 18:01:09,874 INFO scheduler Scheduled Job Complete: frappe.utils.error.collect_error_snapshots for erpnext13.com
+2023-01-05 18:01:10,055 INFO scheduler Scheduled Job Start: frappe.model.utils.user_settings.sync_user_settings for erpnext13.com
+2023-01-05 18:01:10,285 INFO scheduler Scheduled Job Complete: frappe.model.utils.user_settings.sync_user_settings for erpnext13.com
+2023-01-05 18:01:10,375 INFO scheduler Scheduled Job Start: frappe.model.utils.link_count.update_link_count for erpnext13.com
+2023-01-05 18:01:10,707 INFO scheduler Scheduled Job Complete: frappe.model.utils.link_count.update_link_count for erpnext13.com
+2023-01-05 18:01:10,841 INFO scheduler Scheduled Job Start: frappe.monitor.flush for erpnext13.com
+2023-01-05 18:01:11,092 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for erpnext13.com
+2023-01-05 18:01:11,231 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for erpnext13.com
+2023-01-05 18:01:11,456 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for erpnext13.com
+2023-01-05 18:01:11,540 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for erpnext13.com
+2023-01-05 18:01:11,844 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for erpnext13.com
+2023-01-05 18:01:11,919 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for erpnext13.com
+2023-01-05 18:01:12,187 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for erpnext13.com
+2023-01-05 18:01:12,277 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for erpnext13.com
+2023-01-05 18:01:12,620 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for erpnext13.com
+2023-01-05 18:01:12,723 INFO scheduler Scheduled Job Start: frappe.twofactor.delete_all_barcodes_for_users for erpnext13.com
+2023-01-05 18:01:13,279 INFO scheduler Scheduled Job Complete: frappe.twofactor.delete_all_barcodes_for_users for erpnext13.com
+2023-01-05 18:01:13,842 INFO scheduler Scheduled Job Start: frappe.website.doctype.web_page.web_page.check_publish_status for erpnext13.com
+2023-01-05 18:01:14,517 INFO scheduler Scheduled Job Complete: frappe.website.doctype.web_page.web_page.check_publish_status for erpnext13.com
+2023-01-05 18:01:14,652 INFO scheduler Scheduled Job Start: frappe.oauth.delete_oauth2_data for erpnext13.com
+2023-01-05 18:01:15,057 INFO scheduler Scheduled Job Complete: frappe.oauth.delete_oauth2_data for erpnext13.com
+2023-01-05 18:02:00,713 DEBUG scheduler Queued events for site erpnext13.com
+2023-01-05 18:03:00,937 DEBUG scheduler Queued events for site erpnext13.com
+2023-01-05 18:04:01,121 INFO scheduler Scheduled Job Start: payments.payment_gateways.doctype.razorpay_settings.razorpay_settings.capture_payment for erpnext13.com
+2023-01-05 18:04:01,418 DEBUG scheduler Queued events for site erpnext13.com
+2023-01-05 18:04:01,695 INFO scheduler Scheduled Job Complete: payments.payment_gateways.doctype.razorpay_settings.razorpay_settings.capture_payment for erpnext13.com
+2023-01-05 18:04:01,783 INFO scheduler Scheduled Job Start: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for erpnext13.com
+2023-01-05 18:04:02,117 INFO scheduler Scheduled Job Complete: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for erpnext13.com
+2023-01-05 18:04:02,201 INFO scheduler Scheduled Job Start: erpnext.hr.doctype.interview.interview.send_interview_reminder for erpnext13.com
+2023-01-05 18:04:02,578 INFO scheduler Scheduled Job Complete: erpnext.hr.doctype.interview.interview.send_interview_reminder for erpnext13.com
+2023-01-05 18:04:02,703 INFO scheduler Scheduled Job Start: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for erpnext13.com
+2023-01-05 18:04:02,956 INFO scheduler Scheduled Job Complete: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for erpnext13.com
+2023-01-05 18:04:03,040 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.project_status_update_reminder for erpnext13.com
+2023-01-05 18:04:03,405 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.project_status_update_reminder for erpnext13.com
+2023-01-05 18:04:03,492 INFO scheduler Scheduled Job Start: frappe.monitor.flush for erpnext13.com
+2023-01-05 18:04:03,685 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for erpnext13.com
+2023-01-05 18:04:03,759 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for erpnext13.com
+2023-01-05 18:04:04,030 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for erpnext13.com
+2023-01-05 18:04:04,145 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for erpnext13.com
+2023-01-05 18:04:04,416 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for erpnext13.com
+2023-01-05 18:04:04,495 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for erpnext13.com
+2023-01-05 18:04:04,899 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for erpnext13.com
+2023-01-05 18:04:04,984 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for erpnext13.com
+2023-01-05 18:04:05,219 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for erpnext13.com
+2023-01-05 18:05:01,687 DEBUG scheduler Queued events for site erpnext13.com
+2023-01-05 18:05:01,687 INFO scheduler Scheduled Job Start: erpnext.manufacturing.doctype.bom_update_log.bom_update_log.resume_bom_cost_update_jobs for erpnext13.com
+2023-01-05 18:05:02,020 INFO scheduler Scheduled Job Complete: erpnext.manufacturing.doctype.bom_update_log.bom_update_log.resume_bom_cost_update_jobs for erpnext13.com
+2023-01-05 18:06:01,953 DEBUG scheduler Queued events for site erpnext13.com
+2023-01-05 18:07:02,236 DEBUG scheduler Queued events for site erpnext13.com
+2023-01-05 18:08:02,430 INFO scheduler Scheduled Job Start: payments.payment_gateways.doctype.razorpay_settings.razorpay_settings.capture_payment for erpnext13.com
+2023-01-05 18:08:02,589 DEBUG scheduler Queued events for site erpnext13.com
+2023-01-05 18:08:02,942 INFO scheduler Scheduled Job Complete: payments.payment_gateways.doctype.razorpay_settings.razorpay_settings.capture_payment for erpnext13.com
+2023-01-05 18:08:03,030 INFO scheduler Scheduled Job Start: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for erpnext13.com
+2023-01-05 18:08:03,349 INFO scheduler Scheduled Job Complete: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for erpnext13.com
+2023-01-05 18:08:03,432 INFO scheduler Scheduled Job Start: erpnext.hr.doctype.interview.interview.send_interview_reminder for erpnext13.com
+2023-01-05 18:08:03,703 INFO scheduler Scheduled Job Complete: erpnext.hr.doctype.interview.interview.send_interview_reminder for erpnext13.com
+2023-01-05 18:08:03,785 INFO scheduler Scheduled Job Start: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for erpnext13.com
+2023-01-05 18:08:04,067 INFO scheduler Scheduled Job Complete: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for erpnext13.com
+2023-01-05 18:08:04,154 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.project_status_update_reminder for erpnext13.com
+2023-01-05 18:08:04,572 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.project_status_update_reminder for erpnext13.com
+2023-01-05 18:08:04,654 INFO scheduler Scheduled Job Start: frappe.monitor.flush for erpnext13.com
+2023-01-05 18:08:04,975 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for erpnext13.com
+2023-01-05 18:08:05,094 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for erpnext13.com
+2023-01-05 18:08:05,327 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for erpnext13.com
+2023-01-05 18:08:05,439 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for erpnext13.com
+2023-01-05 18:08:05,718 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for erpnext13.com
+2023-01-05 18:08:05,794 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for erpnext13.com
+2023-01-05 18:08:06,100 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for erpnext13.com
+2023-01-05 18:08:06,177 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for erpnext13.com
+2023-01-05 18:08:06,438 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for erpnext13.com
+2023-01-05 18:09:02,867 DEBUG scheduler Queued events for site erpnext13.com
+2023-01-05 18:10:03,119 DEBUG scheduler Queued events for site erpnext13.com
+2023-01-05 18:10:03,130 INFO scheduler Scheduled Job Start: erpnext.manufacturing.doctype.bom_update_log.bom_update_log.resume_bom_cost_update_jobs for erpnext13.com
+2023-01-05 18:10:03,442 INFO scheduler Scheduled Job Complete: erpnext.manufacturing.doctype.bom_update_log.bom_update_log.resume_bom_cost_update_jobs for erpnext13.com
+2023-01-05 18:11:03,401 DEBUG scheduler Queued events for site erpnext13.com
+2023-01-05 18:12:03,597 INFO scheduler Scheduled Job Start: payments.payment_gateways.doctype.razorpay_settings.razorpay_settings.capture_payment for erpnext13.com
+2023-01-05 18:12:03,754 DEBUG scheduler Queued events for site erpnext13.com
+2023-01-05 18:12:04,010 INFO scheduler Scheduled Job Complete: payments.payment_gateways.doctype.razorpay_settings.razorpay_settings.capture_payment for erpnext13.com
+2023-01-05 18:12:04,091 INFO scheduler Scheduled Job Start: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for erpnext13.com
+2023-01-05 18:12:04,420 INFO scheduler Scheduled Job Complete: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for erpnext13.com
+2023-01-05 18:12:04,508 INFO scheduler Scheduled Job Start: erpnext.hr.doctype.interview.interview.send_interview_reminder for erpnext13.com
+2023-01-05 18:12:04,772 INFO scheduler Scheduled Job Complete: erpnext.hr.doctype.interview.interview.send_interview_reminder for erpnext13.com
+2023-01-05 18:12:04,847 INFO scheduler Scheduled Job Start: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for erpnext13.com
+2023-01-05 18:12:05,094 INFO scheduler Scheduled Job Complete: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for erpnext13.com
+2023-01-05 18:12:05,183 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.project_status_update_reminder for erpnext13.com
+2023-01-05 18:12:05,507 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.project_status_update_reminder for erpnext13.com
+2023-01-05 18:12:05,588 INFO scheduler Scheduled Job Start: frappe.monitor.flush for erpnext13.com
+2023-01-05 18:13:04,036 DEBUG scheduler Queued events for site erpnext13.com

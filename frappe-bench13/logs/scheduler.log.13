@@ -1,0 +1,15 @@
+2023-01-06 18:04:30,872 INFO scheduler Scheduled Job Complete: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for erpnext13.com
+2023-01-06 18:04:31,138 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.project_status_update_reminder for erpnext13.com
+2023-01-06 18:04:31,431 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.project_status_update_reminder for erpnext13.com
+2023-01-06 18:04:31,508 INFO scheduler Scheduled Job Start: frappe.monitor.flush for erpnext13.com
+2023-01-06 18:04:31,703 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for erpnext13.com
+2023-01-06 18:04:31,781 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for erpnext13.com
+2023-01-06 18:04:31,969 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for erpnext13.com
+2023-01-06 18:04:32,048 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for erpnext13.com
+2023-01-06 18:04:32,313 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for erpnext13.com
+2023-01-06 18:04:32,394 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for erpnext13.com
+2023-01-06 18:04:32,669 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for erpnext13.com
+2023-01-06 18:04:32,748 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for erpnext13.com
+2023-01-06 18:04:32,971 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for erpnext13.com
+2023-01-06 18:05:29,670 INFO scheduler Scheduled Job Start: erpnext.manufacturing.doctype.bom_update_log.bom_update_log.resume_bom_cost_update_jobs for erpnext13.com
+2023-01-06 18:05:29,974 INFO scheduler Scheduled Job Complete: erpnext.manufacturing.doctype.bom_update_log.bom_update_log.resume_bom_cost_update_jobs for erpnext13.com

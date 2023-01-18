@@ -1,0 +1,354 @@
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _8dd4e147dab549c8 -p********** _8dd4e147dab549c8 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext13.com/private/backups/20221207_180002-erpnext13_com-database.sql.gz
+
+Backup Summary for erpnext13.com at 2022-12-07 18:00:11.867030
+Config  : ./erpnext13.com/private/backups/20221207_180002-erpnext13_com-site_config_backup.json 158.0B
+Database: ./erpnext13.com/private/backups/20221207_180002-erpnext13_com-database.sql.gz         1.8MiB
+Backup for Site erpnext13.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _8dd4e147dab549c8 -p********** _8dd4e147dab549c8 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext13.com/private/backups/20221208_120031-erpnext13_com-database.sql.gz
+
+Backup Summary for erpnext13.com at 2022-12-08 12:01:21.718279
+Config  : ./erpnext13.com/private/backups/20221208_120031-erpnext13_com-site_config_backup.json 158.0B
+Database: ./erpnext13.com/private/backups/20221208_120031-erpnext13_com-database.sql.gz         1.8MiB
+Backup for Site erpnext13.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _8dd4e147dab549c8 -p********** _8dd4e147dab549c8 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext13.com/private/backups/20221208_180013-erpnext13_com-database.sql.gz
+
+Backup Summary for erpnext13.com at 2022-12-08 18:00:16.818293
+Config  : ./erpnext13.com/private/backups/20221208_180013-erpnext13_com-site_config_backup.json 158.0B
+Database: ./erpnext13.com/private/backups/20221208_180013-erpnext13_com-database.sql.gz         1.8MiB
+Backup for Site erpnext13.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _8dd4e147dab549c8 -p********** _8dd4e147dab549c8 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext13.com/private/backups/20221209_120029-erpnext13_com-database.sql.gz
+
+Backup Summary for erpnext13.com at 2022-12-09 12:01:15.088200
+Config  : ./erpnext13.com/private/backups/20221209_120029-erpnext13_com-site_config_backup.json 158.0B
+Database: ./erpnext13.com/private/backups/20221209_120029-erpnext13_com-database.sql.gz         1.8MiB
+Backup for Site erpnext13.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _8dd4e147dab549c8 -p********** _8dd4e147dab549c8 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext13.com/private/backups/20221209_180009-erpnext13_com-database.sql.gz
+
+Backup Summary for erpnext13.com at 2022-12-09 18:00:12.807229
+Config  : ./erpnext13.com/private/backups/20221209_180009-erpnext13_com-site_config_backup.json 158.0B
+Database: ./erpnext13.com/private/backups/20221209_180009-erpnext13_com-database.sql.gz         1.8MiB
+Backup for Site erpnext13.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _8dd4e147dab549c8 -p********** _8dd4e147dab549c8 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext13.com/private/backups/20221212_120032-erpnext13_com-database.sql.gz
+
+Backup Summary for erpnext13.com at 2022-12-12 12:01:19.179394
+Config  : ./erpnext13.com/private/backups/20221212_120032-erpnext13_com-site_config_backup.json 158.0B
+Database: ./erpnext13.com/private/backups/20221212_120032-erpnext13_com-database.sql.gz         1.8MiB
+Backup for Site erpnext13.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _8dd4e147dab549c8 -p********** _8dd4e147dab549c8 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext13.com/private/backups/20221212_180005-erpnext13_com-database.sql.gz
+
+Backup Summary for erpnext13.com at 2022-12-12 18:00:07.974860
+Config  : ./erpnext13.com/private/backups/20221212_180005-erpnext13_com-site_config_backup.json 158.0B
+Database: ./erpnext13.com/private/backups/20221212_180005-erpnext13_com-database.sql.gz         1.8MiB
+Backup for Site erpnext13.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _8dd4e147dab549c8 -p********** _8dd4e147dab549c8 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext13.com/private/backups/20221213_120044-erpnext13_com-database.sql.gz
+
+Backup Summary for erpnext13.com at 2022-12-13 12:01:38.504814
+Config  : ./erpnext13.com/private/backups/20221213_120044-erpnext13_com-site_config_backup.json 158.0B
+Database: ./erpnext13.com/private/backups/20221213_120044-erpnext13_com-database.sql.gz         1.8MiB
+Backup for Site erpnext13.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _8dd4e147dab549c8 -p********** _8dd4e147dab549c8 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext13.com/private/backups/20221213_180028-erpnext13_com-database.sql.gz
+
+Backup Summary for erpnext13.com at 2022-12-13 18:00:33.541351
+Config  : ./erpnext13.com/private/backups/20221213_180028-erpnext13_com-site_config_backup.json 158.0B
+Database: ./erpnext13.com/private/backups/20221213_180028-erpnext13_com-database.sql.gz         1.8MiB
+Backup for Site erpnext13.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _8dd4e147dab549c8 -p********** _8dd4e147dab549c8 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext13.com/private/backups/20221214_120032-erpnext13_com-database.sql.gz
+
+Backup Summary for erpnext13.com at 2022-12-14 12:01:24.815657
+Config  : ./erpnext13.com/private/backups/20221214_120032-erpnext13_com-site_config_backup.json 158.0B
+Database: ./erpnext13.com/private/backups/20221214_120032-erpnext13_com-database.sql.gz         1.8MiB
+Backup for Site erpnext13.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _8dd4e147dab549c8 -p********** _8dd4e147dab549c8 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext13.com/private/backups/20221214_180024-erpnext13_com-database.sql.gz
+
+Backup Summary for erpnext13.com at 2022-12-14 18:00:55.092987
+Config  : ./erpnext13.com/private/backups/20221214_180024-erpnext13_com-site_config_backup.json 158.0B
+Database: ./erpnext13.com/private/backups/20221214_180024-erpnext13_com-database.sql.gz         1.8MiB
+Backup for Site erpnext13.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _8dd4e147dab549c8 -p********** _8dd4e147dab549c8 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext13.com/private/backups/20221215_120035-erpnext13_com-database.sql.gz
+
+Backup Summary for erpnext13.com at 2022-12-15 12:01:18.460911
+Config  : ./erpnext13.com/private/backups/20221215_120035-erpnext13_com-site_config_backup.json 158.0B
+Database: ./erpnext13.com/private/backups/20221215_120035-erpnext13_com-database.sql.gz         1.8MiB
+Backup for Site erpnext13.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _8dd4e147dab549c8 -p********** _8dd4e147dab549c8 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext13.com/private/backups/20221215_180020-erpnext13_com-database.sql.gz
+
+Backup Summary for erpnext13.com at 2022-12-15 18:01:19.264728
+Config  : ./erpnext13.com/private/backups/20221215_180020-erpnext13_com-site_config_backup.json 158.0B
+Database: ./erpnext13.com/private/backups/20221215_180020-erpnext13_com-database.sql.gz         1.8MiB
+Backup for Site erpnext13.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _8dd4e147dab549c8 -p********** _8dd4e147dab549c8 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext13.com/private/backups/20221216_120032-erpnext13_com-database.sql.gz
+
+Backup Summary for erpnext13.com at 2022-12-16 12:01:17.942324
+Config  : ./erpnext13.com/private/backups/20221216_120032-erpnext13_com-site_config_backup.json 158.0B
+Database: ./erpnext13.com/private/backups/20221216_120032-erpnext13_com-database.sql.gz         1.8MiB
+Backup for Site erpnext13.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _8dd4e147dab549c8 -p********** _8dd4e147dab549c8 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext13.com/private/backups/20221216_180023-erpnext13_com-database.sql.gz
+
+Backup Summary for erpnext13.com at 2022-12-16 18:00:29.147355
+Config  : ./erpnext13.com/private/backups/20221216_180023-erpnext13_com-site_config_backup.json 158.0B
+Database: ./erpnext13.com/private/backups/20221216_180023-erpnext13_com-database.sql.gz         1.8MiB
+Backup for Site erpnext13.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _8dd4e147dab549c8 -p********** _8dd4e147dab549c8 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext13.com/private/backups/20221219_120022-erpnext13_com-database.sql.gz
+
+Backup Summary for erpnext13.com at 2022-12-19 12:00:33.761270
+Config  : ./erpnext13.com/private/backups/20221219_120022-erpnext13_com-site_config_backup.json 158.0B
+Database: ./erpnext13.com/private/backups/20221219_120022-erpnext13_com-database.sql.gz         1.8MiB
+Backup for Site erpnext13.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _8dd4e147dab549c8 -p********** _8dd4e147dab549c8 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext13.com/private/backups/20221219_180024-erpnext13_com-database.sql.gz
+
+Backup Summary for erpnext13.com at 2022-12-19 18:01:50.213868
+Config  : ./erpnext13.com/private/backups/20221219_180024-erpnext13_com-site_config_backup.json 158.0B
+Database: ./erpnext13.com/private/backups/20221219_180024-erpnext13_com-database.sql.gz         1.8MiB
+Backup for Site erpnext13.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _8dd4e147dab549c8 -p********** _8dd4e147dab549c8 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext13.com/private/backups/20221220_120032-erpnext13_com-database.sql.gz
+
+Backup Summary for erpnext13.com at 2022-12-20 12:01:21.383864
+Config  : ./erpnext13.com/private/backups/20221220_120032-erpnext13_com-site_config_backup.json 158.0B
+Database: ./erpnext13.com/private/backups/20221220_120032-erpnext13_com-database.sql.gz         1.8MiB
+Backup for Site erpnext13.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _8dd4e147dab549c8 -p********** _8dd4e147dab549c8 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext13.com/private/backups/20221220_180005-erpnext13_com-database.sql.gz
+
+Backup Summary for erpnext13.com at 2022-12-20 18:00:08.231148
+Config  : ./erpnext13.com/private/backups/20221220_180005-erpnext13_com-site_config_backup.json 158.0B
+Database: ./erpnext13.com/private/backups/20221220_180005-erpnext13_com-database.sql.gz         1.8MiB
+Backup for Site erpnext13.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _8dd4e147dab549c8 -p********** _8dd4e147dab549c8 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext13.com/private/backups/20221221_120040-erpnext13_com-database.sql.gz
+
+Backup Summary for erpnext13.com at 2022-12-21 12:01:36.940705
+Config  : ./erpnext13.com/private/backups/20221221_120040-erpnext13_com-site_config_backup.json 158.0B
+Database: ./erpnext13.com/private/backups/20221221_120040-erpnext13_com-database.sql.gz         1.8MiB
+Backup for Site erpnext13.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _8dd4e147dab549c8 -p********** _8dd4e147dab549c8 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext13.com/private/backups/20221221_180027-erpnext13_com-database.sql.gz
+
+Backup Summary for erpnext13.com at 2022-12-21 18:00:33.150204
+Config  : ./erpnext13.com/private/backups/20221221_180027-erpnext13_com-site_config_backup.json 158.0B
+Database: ./erpnext13.com/private/backups/20221221_180027-erpnext13_com-database.sql.gz         1.8MiB
+Backup for Site erpnext13.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _8dd4e147dab549c8 -p********** _8dd4e147dab549c8 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext13.com/private/backups/20221222_120042-erpnext13_com-database.sql.gz
+
+Backup Summary for erpnext13.com at 2022-12-22 12:01:34.328445
+Config  : ./erpnext13.com/private/backups/20221222_120042-erpnext13_com-site_config_backup.json 158.0B
+Database: ./erpnext13.com/private/backups/20221222_120042-erpnext13_com-database.sql.gz         1.8MiB
+Backup for Site erpnext13.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _8dd4e147dab549c8 -p********** _8dd4e147dab549c8 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext13.com/private/backups/20221222_180028-erpnext13_com-database.sql.gz
+
+Backup Summary for erpnext13.com at 2022-12-22 18:00:34.082077
+Config  : ./erpnext13.com/private/backups/20221222_180028-erpnext13_com-site_config_backup.json 158.0B
+Database: ./erpnext13.com/private/backups/20221222_180028-erpnext13_com-database.sql.gz         1.8MiB
+Backup for Site erpnext13.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _8dd4e147dab549c8 -p********** _8dd4e147dab549c8 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext13.com/private/backups/20221223_120031-erpnext13_com-database.sql.gz
+
+Backup Summary for erpnext13.com at 2022-12-23 12:01:17.823079
+Config  : ./erpnext13.com/private/backups/20221223_120031-erpnext13_com-site_config_backup.json 158.0B
+Database: ./erpnext13.com/private/backups/20221223_120031-erpnext13_com-database.sql.gz         1.8MiB
+Backup for Site erpnext13.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _8dd4e147dab549c8 -p********** _8dd4e147dab549c8 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext13.com/private/backups/20221223_180024-erpnext13_com-database.sql.gz
+
+Backup Summary for erpnext13.com at 2022-12-23 18:00:30.140009
+Config  : ./erpnext13.com/private/backups/20221223_180024-erpnext13_com-site_config_backup.json 158.0B
+Database: ./erpnext13.com/private/backups/20221223_180024-erpnext13_com-database.sql.gz         1.8MiB
+Backup for Site erpnext13.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _8dd4e147dab549c8 -p********** _8dd4e147dab549c8 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext13.com/private/backups/20221224_120032-erpnext13_com-database.sql.gz
+
+Backup Summary for erpnext13.com at 2022-12-24 12:01:28.406289
+Config  : ./erpnext13.com/private/backups/20221224_120032-erpnext13_com-site_config_backup.json 158.0B
+Database: ./erpnext13.com/private/backups/20221224_120032-erpnext13_com-database.sql.gz         1.8MiB
+Backup for Site erpnext13.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _8dd4e147dab549c8 -p********** _8dd4e147dab549c8 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext13.com/private/backups/20221226_120031-erpnext13_com-database.sql.gz
+
+Backup Summary for erpnext13.com at 2022-12-26 12:01:17.905694
+Config  : ./erpnext13.com/private/backups/20221226_120031-erpnext13_com-site_config_backup.json 158.0B
+Database: ./erpnext13.com/private/backups/20221226_120031-erpnext13_com-database.sql.gz         1.8MiB
+Backup for Site erpnext13.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _8dd4e147dab549c8 -p********** _8dd4e147dab549c8 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext13.com/private/backups/20221226_180023-erpnext13_com-database.sql.gz
+
+Backup Summary for erpnext13.com at 2022-12-26 18:00:27.951688
+Config  : ./erpnext13.com/private/backups/20221226_180023-erpnext13_com-site_config_backup.json 158.0B
+Database: ./erpnext13.com/private/backups/20221226_180023-erpnext13_com-database.sql.gz         1.8MiB
+Backup for Site erpnext13.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _8dd4e147dab549c8 -p********** _8dd4e147dab549c8 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext13.com/private/backups/20221227_120031-erpnext13_com-database.sql.gz
+
+Backup Summary for erpnext13.com at 2022-12-27 12:01:17.986480
+Config  : ./erpnext13.com/private/backups/20221227_120031-erpnext13_com-site_config_backup.json 158.0B
+Database: ./erpnext13.com/private/backups/20221227_120031-erpnext13_com-database.sql.gz         1.8MiB
+Backup for Site erpnext13.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _8dd4e147dab549c8 -p********** _8dd4e147dab549c8 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext13.com/private/backups/20221227_180015-erpnext13_com-database.sql.gz
+
+Backup Summary for erpnext13.com at 2022-12-27 18:00:19.042179
+Config  : ./erpnext13.com/private/backups/20221227_180015-erpnext13_com-site_config_backup.json 158.0B
+Database: ./erpnext13.com/private/backups/20221227_180015-erpnext13_com-database.sql.gz         1.8MiB
+Backup for Site erpnext13.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _8dd4e147dab549c8 -p********** _8dd4e147dab549c8 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext13.com/private/backups/20221228_120029-erpnext13_com-database.sql.gz
+
+Backup Summary for erpnext13.com at 2022-12-28 12:01:15.433343
+Config  : ./erpnext13.com/private/backups/20221228_120029-erpnext13_com-site_config_backup.json 158.0B
+Database: ./erpnext13.com/private/backups/20221228_120029-erpnext13_com-database.sql.gz         1.8MiB
+Backup for Site erpnext13.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _8dd4e147dab549c8 -p********** _8dd4e147dab549c8 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext13.com/private/backups/20221228_180022-erpnext13_com-database.sql.gz
+
+Backup Summary for erpnext13.com at 2022-12-28 18:00:27.222564
+Config  : ./erpnext13.com/private/backups/20221228_180022-erpnext13_com-site_config_backup.json 158.0B
+Database: ./erpnext13.com/private/backups/20221228_180022-erpnext13_com-database.sql.gz         1.8MiB
+Backup for Site erpnext13.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _8dd4e147dab549c8 -p********** _8dd4e147dab549c8 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext13.com/private/backups/20221229_120030-erpnext13_com-database.sql.gz
+
+Backup Summary for erpnext13.com at 2022-12-29 12:01:16.831538
+Config  : ./erpnext13.com/private/backups/20221229_120030-erpnext13_com-site_config_backup.json 158.0B
+Database: ./erpnext13.com/private/backups/20221229_120030-erpnext13_com-database.sql.gz         1.8MiB
+Backup for Site erpnext13.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _8dd4e147dab549c8 -p********** _8dd4e147dab549c8 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext13.com/private/backups/20221229_180014-erpnext13_com-database.sql.gz
+
+Backup Summary for erpnext13.com at 2022-12-29 18:00:17.215070
+Config  : ./erpnext13.com/private/backups/20221229_180014-erpnext13_com-site_config_backup.json 158.0B
+Database: ./erpnext13.com/private/backups/20221229_180014-erpnext13_com-database.sql.gz         1.8MiB
+Backup for Site erpnext13.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _8dd4e147dab549c8 -p********** _8dd4e147dab549c8 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext13.com/private/backups/20221230_120023-erpnext13_com-database.sql.gz
+
+Backup Summary for erpnext13.com at 2022-12-30 12:01:33.111130
+Config  : ./erpnext13.com/private/backups/20221230_120023-erpnext13_com-site_config_backup.json 158.0B
+Database: ./erpnext13.com/private/backups/20221230_120023-erpnext13_com-database.sql.gz         1.9MiB
+Backup for Site erpnext13.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _8dd4e147dab549c8 -p********** _8dd4e147dab549c8 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext13.com/private/backups/20221230_180024-erpnext13_com-database.sql.gz
+
+Backup Summary for erpnext13.com at 2022-12-30 18:01:18.399026
+Config  : ./erpnext13.com/private/backups/20221230_180024-erpnext13_com-site_config_backup.json 158.0B
+Database: ./erpnext13.com/private/backups/20221230_180024-erpnext13_com-database.sql.gz         1.9MiB
+Backup for Site erpnext13.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _8dd4e147dab549c8 -p********** _8dd4e147dab549c8 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext13.com/private/backups/20230102_120032-erpnext13_com-database.sql.gz
+
+Backup Summary for erpnext13.com at 2023-01-02 12:01:20.686210
+Config  : ./erpnext13.com/private/backups/20230102_120032-erpnext13_com-site_config_backup.json 158.0B
+Database: ./erpnext13.com/private/backups/20230102_120032-erpnext13_com-database.sql.gz         1.9MiB
+Backup for Site erpnext13.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _8dd4e147dab549c8 -p********** _8dd4e147dab549c8 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext13.com/private/backups/20230102_180057-erpnext13_com-database.sql.gz
+
+Backup Summary for erpnext13.com at 2023-01-02 18:01:12.826545
+Config  : ./erpnext13.com/private/backups/20230102_180057-erpnext13_com-site_config_backup.json 158.0B
+Database: ./erpnext13.com/private/backups/20230102_180057-erpnext13_com-database.sql.gz         1.9MiB
+Backup for Site erpnext13.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _8dd4e147dab549c8 -p********** _8dd4e147dab549c8 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext13.com/private/backups/20230103_120033-erpnext13_com-database.sql.gz
+
+Backup Summary for erpnext13.com at 2023-01-03 12:01:25.665960
+Config  : ./erpnext13.com/private/backups/20230103_120033-erpnext13_com-site_config_backup.json 158.0B
+Database: ./erpnext13.com/private/backups/20230103_120033-erpnext13_com-database.sql.gz         1.9MiB
+Backup for Site erpnext13.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _8dd4e147dab549c8 -p********** _8dd4e147dab549c8 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext13.com/private/backups/20230103_180023-erpnext13_com-database.sql.gz
+
+Backup Summary for erpnext13.com at 2023-01-03 18:00:40.769934
+Config  : ./erpnext13.com/private/backups/20230103_180023-erpnext13_com-site_config_backup.json 158.0B
+Database: ./erpnext13.com/private/backups/20230103_180023-erpnext13_com-database.sql.gz         1.9MiB
+Backup for Site erpnext13.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _8dd4e147dab549c8 -p********** _8dd4e147dab549c8 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext13.com/private/backups/20230104_120032-erpnext13_com-database.sql.gz
+
+Backup Summary for erpnext13.com at 2023-01-04 12:01:21.641120
+Config  : ./erpnext13.com/private/backups/20230104_120032-erpnext13_com-site_config_backup.json 158.0B
+Database: ./erpnext13.com/private/backups/20230104_120032-erpnext13_com-database.sql.gz         1.9MiB
+Backup for Site erpnext13.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _8dd4e147dab549c8 -p********** _8dd4e147dab549c8 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext13.com/private/backups/20230104_180029-erpnext13_com-database.sql.gz
+
+Backup Summary for erpnext13.com at 2023-01-04 18:01:04.563587
+Config  : ./erpnext13.com/private/backups/20230104_180029-erpnext13_com-site_config_backup.json 158.0B
+Database: ./erpnext13.com/private/backups/20230104_180029-erpnext13_com-database.sql.gz         1.9MiB
+Backup for Site erpnext13.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _8dd4e147dab549c8 -p********** _8dd4e147dab549c8 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext13.com/private/backups/20230105_120020-erpnext13_com-database.sql.gz
+
+Backup Summary for erpnext13.com at 2023-01-05 12:00:32.291461
+Config  : ./erpnext13.com/private/backups/20230105_120020-erpnext13_com-site_config_backup.json 158.0B
+Database: ./erpnext13.com/private/backups/20230105_120020-erpnext13_com-database.sql.gz         1.9MiB
+Backup for Site erpnext13.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _8dd4e147dab549c8 -p********** _8dd4e147dab549c8 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext13.com/private/backups/20230105_180024-erpnext13_com-database.sql.gz
+
+Backup Summary for erpnext13.com at 2023-01-05 18:00:47.226108
+Config  : ./erpnext13.com/private/backups/20230105_180024-erpnext13_com-site_config_backup.json 158.0B
+Database: ./erpnext13.com/private/backups/20230105_180024-erpnext13_com-database.sql.gz         1.9MiB
+Backup for Site erpnext13.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _8dd4e147dab549c8 -p********** _8dd4e147dab549c8 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext13.com/private/backups/20230106_120034-erpnext13_com-database.sql.gz
+
+Backup Summary for erpnext13.com at 2023-01-06 12:01:19.748883
+Config  : ./erpnext13.com/private/backups/20230106_120034-erpnext13_com-site_config_backup.json 158.0B
+Database: ./erpnext13.com/private/backups/20230106_120034-erpnext13_com-database.sql.gz         1.9MiB
+Backup for Site erpnext13.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _8dd4e147dab549c8 -p********** _8dd4e147dab549c8 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext13.com/private/backups/20230106_180126-erpnext13_com-database.sql.gz
+
+Backup Summary for erpnext13.com at 2023-01-06 18:02:16.319476
+Config  : ./erpnext13.com/private/backups/20230106_180126-erpnext13_com-site_config_backup.json 158.0B
+Database: ./erpnext13.com/private/backups/20230106_180126-erpnext13_com-database.sql.gz         1.9MiB
+Backup for Site erpnext13.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _8dd4e147dab549c8 -p********** _8dd4e147dab549c8 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext13.com/private/backups/20230107_120033-erpnext13_com-database.sql.gz
+
+Backup Summary for erpnext13.com at 2023-01-07 12:01:19.359360
+Config  : ./erpnext13.com/private/backups/20230107_120033-erpnext13_com-site_config_backup.json 158.0B
+Database: ./erpnext13.com/private/backups/20230107_120033-erpnext13_com-database.sql.gz         1.9MiB
+Backup for Site erpnext13.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _8dd4e147dab549c8 -p********** _8dd4e147dab549c8 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext13.com/private/backups/20230109_120031-erpnext13_com-database.sql.gz
+
+Backup Summary for erpnext13.com at 2023-01-09 12:01:46.841067
+Config  : ./erpnext13.com/private/backups/20230109_120031-erpnext13_com-site_config_backup.json 158.0B
+Database: ./erpnext13.com/private/backups/20230109_120031-erpnext13_com-database.sql.gz         1.9MiB
+Backup for Site erpnext13.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _8dd4e147dab549c8 -p********** _8dd4e147dab549c8 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext13.com/private/backups/20230109_180035-erpnext13_com-database.sql.gz
+
+Backup Summary for erpnext13.com at 2023-01-09 18:01:11.692575
+Config  : ./erpnext13.com/private/backups/20230109_180035-erpnext13_com-site_config_backup.json 158.0B
+Database: ./erpnext13.com/private/backups/20230109_180035-erpnext13_com-database.sql.gz         1.9MiB
+Backup for Site erpnext13.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _8dd4e147dab549c8 -p********** _8dd4e147dab549c8 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext13.com/private/backups/20230110_120029-erpnext13_com-database.sql.gz
+
+Backup Summary for erpnext13.com at 2023-01-10 12:01:37.873643
+Config  : ./erpnext13.com/private/backups/20230110_120029-erpnext13_com-site_config_backup.json 158.0B
+Database: ./erpnext13.com/private/backups/20230110_120029-erpnext13_com-database.sql.gz         1.9MiB
+Backup for Site erpnext13.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _8dd4e147dab549c8 -p********** _8dd4e147dab549c8 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext13.com/private/backups/20230110_180026-erpnext13_com-database.sql.gz
+
+Backup Summary for erpnext13.com at 2023-01-10 18:00:31.348357
+Config  : ./erpnext13.com/private/backups/20230110_180026-erpnext13_com-site_config_backup.json 158.0B
+Database: ./erpnext13.com/private/backups/20230110_180026-erpnext13_com-database.sql.gz         1.9MiB
+Backup for Site erpnext13.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _8dd4e147dab549c8 -p********** _8dd4e147dab549c8 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext13.com/private/backups/20230111_120003-erpnext13_com-database.sql.gz
+
+Backup Summary for erpnext13.com at 2023-01-11 12:00:25.155786
+Config  : ./erpnext13.com/private/backups/20230111_120003-erpnext13_com-site_config_backup.json 158.0B
+Database: ./erpnext13.com/private/backups/20230111_120003-erpnext13_com-database.sql.gz         1.9MiB
+Backup for Site erpnext13.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _8dd4e147dab549c8 -p********** _8dd4e147dab549c8 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext13.com/private/backups/20230111_180024-erpnext13_com-database.sql.gz
+
+Backup Summary for erpnext13.com at 2023-01-11 18:01:24.143563
+Config  : ./erpnext13.com/private/backups/20230111_180024-erpnext13_com-site_config_backup.json 185.0B
+Database: ./erpnext13.com/private/backups/20230111_180024-erpnext13_com-database.sql.gz         1.9MiB
+Backup for Site erpnext13.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _8dd4e147dab549c8 -p********** _8dd4e147dab549c8 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext13.com/private/backups/20230113_120044-erpnext13_com-database.sql.gz
+
+Backup Summary for erpnext13.com at 2023-01-13 12:02:26.233137
+Config  : ./erpnext13.com/private/backups/20230113_120044-erpnext13_com-site_config_backup.json 185.0B
+Database: ./erpnext13.com/private/backups/20230113_120044-erpnext13_com-database.sql.gz         1.9MiB
+Backup for Site erpnext13.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _8dd4e147dab549c8 -p********** _8dd4e147dab549c8 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext13.com/private/backups/20230113_180040-erpnext13_com-database.sql.gz
+
+Backup Summary for erpnext13.com at 2023-01-13 18:02:29.493225
+Config  : ./erpnext13.com/private/backups/20230113_180040-erpnext13_com-site_config_backup.json 185.0B
+Database: ./erpnext13.com/private/backups/20230113_180040-erpnext13_com-database.sql.gz         1.9MiB
+Backup for Site erpnext13.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _8dd4e147dab549c8 -p********** _8dd4e147dab549c8 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext13.com/private/backups/20230116_120040-erpnext13_com-database.sql.gz
+
+Backup Summary for erpnext13.com at 2023-01-16 12:02:00.751687
+Config  : ./erpnext13.com/private/backups/20230116_120040-erpnext13_com-site_config_backup.json 185.0B
+Database: ./erpnext13.com/private/backups/20230116_120040-erpnext13_com-database.sql.gz         1.9MiB
+Backup for Site erpnext13.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _8dd4e147dab549c8 -p********** _8dd4e147dab549c8 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext13.com/private/backups/20230116_180002-erpnext13_com-database.sql.gz
+
+Backup Summary for erpnext13.com at 2023-01-16 18:00:15.176930
+Config  : ./erpnext13.com/private/backups/20230116_180002-erpnext13_com-site_config_backup.json 185.0B
+Database: ./erpnext13.com/private/backups/20230116_180002-erpnext13_com-database.sql.gz         1.9MiB
+Backup for Site erpnext13.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _8dd4e147dab549c8 -p********** _8dd4e147dab549c8 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext13.com/private/backups/20230117_120045-erpnext13_com-database.sql.gz
+
+Backup Summary for erpnext13.com at 2023-01-17 12:02:36.733349
+Config  : ./erpnext13.com/private/backups/20230117_120045-erpnext13_com-site_config_backup.json 185.0B
+Database: ./erpnext13.com/private/backups/20230117_120045-erpnext13_com-database.sql.gz         1.9MiB
+Backup for Site erpnext13.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _8dd4e147dab549c8 -p********** _8dd4e147dab549c8 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext13.com/private/backups/20230117_180034-erpnext13_com-database.sql.gz
+
+Backup Summary for erpnext13.com at 2023-01-17 18:01:27.247930
+Config  : ./erpnext13.com/private/backups/20230117_180034-erpnext13_com-site_config_backup.json 185.0B
+Database: ./erpnext13.com/private/backups/20230117_180034-erpnext13_com-database.sql.gz         1.9MiB
+Backup for Site erpnext13.com has been successfully completed

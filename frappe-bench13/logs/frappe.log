@@ -1,0 +1,42 @@
+2022-12-07 16:53:39,339 ERROR frappe New Exception collected with id: 2022-12-07 16:53:39.256135-127.0.0.1-4bc
+Site: erpnext13.com
+Form Dict: {}
+2022-12-07 16:53:42,779 ERROR frappe New Exception collected with id: 2022-12-07 16:53:42.767971-127.0.0.1-6e4
+Site: erpnext13.com
+Form Dict: {}
+2022-12-15 14:51:51,569 ERROR frappe New Exception collected with id: 2022-12-15 14:51:50.486486-127.0.0.1-dbf
+Site: erpnext13.com
+Form Dict: {'app_path': 'student'}
+2022-12-15 14:52:20,639 ERROR frappe New Exception collected with id: 2022-12-15 14:52:20.623552-127.0.0.1-f31
+Site: erpnext13.com
+Form Dict: {'app_path': 'student'}
+2022-12-15 14:52:23,031 ERROR frappe New Exception collected with id: 2022-12-15 14:52:23.013127-127.0.0.1-527
+Site: erpnext13.com
+Form Dict: {'app_path': 'student'}
+2023-01-03 19:59:18,692 ERROR frappe New Exception collected with id: 2023-01-03 19:59:17.757938-127.0.0.1-245
+Site: erpnext13.com
+Form Dict: {}
+2023-01-03 20:00:33,422 ERROR frappe New Exception collected with id: 2023-01-03 20:00:33.389482-127.0.0.1-1a5
+Site: erpnext13.com
+Form Dict: {'name': 'a-Billing'}
+2023-01-05 10:21:51,371 ERROR frappe New Exception collected with id: 2023-01-05 10:21:50.420443-127.0.0.1-ab2
+Site: erpnext13.com
+Form Dict: {'name': 'a-Billing'}
+2023-01-05 10:22:00,585 ERROR frappe New Exception collected with id: 2023-01-05 10:22:00.548206-127.0.0.1-70d
+Site: erpnext13.com
+Form Dict: {'name': 'a-Billing'}
+2023-01-06 17:50:16,678 ERROR frappe New Exception collected with id: 2023-01-06 17:50:15.939475-127.0.0.1-080
+Site: erpnext13.com
+Form Dict: {'name': 'a-Billing'}
+2023-01-06 17:54:30,208 ERROR frappe New Exception collected with id: 2023-01-06 17:54:30.182829-127.0.0.1-0b3
+Site: erpnext13.com
+Form Dict: {'name': 'madhan-Shipping'}
+2023-01-11 11:35:54,257 ERROR frappe New Exception collected with id: 2023-01-11 11:35:54.151593-127.0.0.1-387
+Site: erpnext13.com
+Form Dict: {'app_path': 'item/001'}
+2023-01-11 11:37:35,094 ERROR frappe New Exception collected with id: 2023-01-11 11:37:35.080200-127.0.0.1-ff6
+Site: erpnext13.com
+Form Dict: {'app_path': 'item/001'}
+2023-01-11 14:12:20,095 ERROR frappe New Exception collected with id: 2023-01-11 14:12:19.415305-127.0.0.1-17a
+Site: erpnext13.com
+Form Dict: {}

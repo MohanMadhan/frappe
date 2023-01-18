@@ -1,0 +1,9 @@
+2023-01-05 18:12:05,823 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for erpnext13.com
+2023-01-05 18:12:06,061 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for erpnext13.com
+2023-01-05 18:12:06,331 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for erpnext13.com
+2023-01-05 18:12:06,416 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for erpnext13.com
+2023-01-05 18:12:06,787 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for erpnext13.com
+2023-01-05 18:12:06,870 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for erpnext13.com
+2023-01-05 18:12:07,255 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for erpnext13.com
+2023-01-05 18:12:07,344 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for erpnext13.com
+2023-01-05 18:12:07,604 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for erpnext13.com
