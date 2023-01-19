@@ -401,3 +401,19 @@
 2023-01-18 10:24:24,822 INFO /usr/local/bin/bench worker --queue short
 2023-01-18 10:24:24,884 INFO /usr/local/bin/bench worker --queue default
 2023-01-18 10:24:24,903 INFO /usr/local/bin/bench worker --queue long
+2023-01-18 17:14:17,074 INFO /usr/local/bin/bench start
+2023-01-18 17:17:31,953 INFO /usr/local/bin/bench build
+2023-01-18 17:23:47,703 INFO /usr/local/bin/bench start
+2023-01-18 17:25:32,610 INFO /usr/local/bin/bench version
+2023-01-18 17:25:43,571 INFO /usr/local/bin/bench --version
+2023-01-18 17:25:44,974 INFO A newer version of bench is available: 5.10.1 → 5.16.0
+2023-01-18 17:33:25,990 INFO /usr/local/bin/bench config dns_multitenant on
+2023-01-18 17:43:47,811 INFO /usr/local/bin/bench restart
+2023-01-18 17:43:56,093 INFO /usr/local/bin/bench start
+2023-01-19 10:24:33,606 INFO /usr/local/bin/bench start
+2023-01-19 10:24:42,121 INFO /usr/local/bin/bench schedule
+2023-01-19 10:24:42,130 INFO /usr/local/bin/bench serve --port 8005
+2023-01-19 10:24:42,240 INFO /usr/local/bin/bench watch
+2023-01-19 10:24:42,261 INFO /usr/local/bin/bench worker --queue default
+2023-01-19 10:24:42,344 INFO /usr/local/bin/bench worker --queue short
+2023-01-19 10:24:42,488 INFO /usr/local/bin/bench worker --queue long

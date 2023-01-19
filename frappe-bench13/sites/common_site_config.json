@@ -1,5 +1,6 @@
 {
  "background_workers": 1,
+ "dns_multitenant": true,
  "file_watcher_port": 6792,
  "frappe_user": "eorchids",
  "gunicorn_workers": 9,
